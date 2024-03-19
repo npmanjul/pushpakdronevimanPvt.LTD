@@ -1,0 +1,41 @@
+.navi-container
+{
+    height: auto;
+    width: 350px;
+    box-shadow:0px 0px 10px -2.5px rgba(0, 0, 0, 0.155);
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+    background-color: white;
+}
+
+.navi-container:hover
+{
+    transform: scale(1.03);
+}
+
+.navi-box
+{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 24px;
+}
+
+
+.navi-box img
+{
+    height: 210px;
+    width: 315px;
+    border-radius: 10px;
+    
+}
+
+.title
+{
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}

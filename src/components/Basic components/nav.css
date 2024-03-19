@@ -1,0 +1,94 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 2rem;
+    /* padding-left: 2rem;
+    padding-right: 4rem; */
+    box-shadow: 0px 0px 13px -4px #0000002e;
+    transition: 0.4s;
+    /* Adds a transition effect when the padding is decreased */
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    position: relative;
+    font-size: 18px;
+}
+
+.logo_section img {
+    height: 75px;
+    pointer-events: none;
+}
+
+.dropdown_box {
+    cursor: pointer;
+    padding: 20px 10px;
+    transition: all 1s;
+
+}
+
+
+.dropdown_boxes {
+    height: 0;
+    width: 1000px;
+    position: absolute;
+    top: 100%;
+    left: -43%;
+    overflow: hidden;
+    background-color: aqua;
+    transition: transform 0.5s ease;
+    transform: scale(0.8);
+    border-radius: 25px;
+}
+
+.dropdown_box:hover .dropdown_boxes {
+    height: 400px;
+    transform: scale(1);
+}
+
+.contact_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_section button {
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact_section button:hover {
+    background-color: rgba(0, 0, 0, 0.853);
+}
+
+
+@media (max-width:800px) {
+
+    .navigation,
+    .login_section {
+        display: none;
+    }
+
+    .Curtain_Menu {
+        display: block;
+    }
+}
+
+/* hamburger menu */
