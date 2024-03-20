@@ -24,8 +24,13 @@
     font-size: 18px;
 }
 
+.logo_section
+{
+    cursor: pointer;
+}
+
 .logo_section img {
-    height: 75px;
+    height: 60px;
     pointer-events: none;
 }
 
@@ -81,17 +86,50 @@
     background-color: rgba(0, 0, 0, 0.853);
 }
 
+.menu-section
+{
+    display: none;
+}
 
-@media (max-width:800px) {
+.menu-section button
+{
+    background-color: white;
+    border: 0;
+    outline: none;
+    
+}
 
-    .navigation,
-    .login_section {
+
+@media (max-width:850px) {
+
+    .navigation {
         display: none;
     }
 
-    .Curtain_Menu {
-        display: block;
+
+    .contact_section button
+    {
+        display: none;
     }
+
+    .menu-section
+{
+    display: block;
 }
 
-/* hamburger menu */
+.logo_section img {
+    height: 55px;
+    pointer-events: none;
+}
+
+}
+
+
+@media (max-width:850px) 
+{
+    
+.logo_section img {
+    height: 45px;
+    pointer-events: none;
+}
+}

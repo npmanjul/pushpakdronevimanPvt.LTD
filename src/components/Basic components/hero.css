@@ -28,4 +28,22 @@
     font-size: 3rem;
     font-weight: 700;
     color: white;
+    height: auto;
+    text-wrap:wrap;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width:850px) {
+    .hero-title
+    {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:625px) {
+    .hero-title
+    {
+        font-size: 2rem;
+    }
 }

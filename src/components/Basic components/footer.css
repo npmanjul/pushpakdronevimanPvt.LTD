@@ -12,16 +12,18 @@
     align-items: center;
     flex-direction: column;
     width: 100%
-
 }
 
 .footer-top-box {
     padding-top: 4rem;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: start;
     flex-direction: row;
+    gap: 4rem;
+    padding-left: 6rem;
+    padding-right: 4rem;
 }
 
 .footer-logo {
@@ -32,6 +34,7 @@
 
 .footer-logo-img img {
     width: 200px;
+    pointer-events: none;
 }
 
 .logo-title {
@@ -48,6 +51,23 @@
     align-items: start;
     flex-direction: column;
     gap: 1rem;
+    width: auto;
+}
+
+.footer-col-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer-col-subgroup {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+    width: 100%;
 }
 
 .footer-middle-box {
@@ -81,31 +101,83 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    cursor: pointer;
     border: 1px solid black;
     border-radius: 50%;
     padding: 5px;
     height: 40px;
     width: 40px;
 }
-.copyright-text
-{
+
+.copyright-text {
     font-size: 17px;
     font-weight: 700;
+    padding-top: 10px;
 }
-.footer-heading
-{
+
+.footer-heading {
     font-size: 18px;
     font-weight: 700;
 }
 
-.footer-text
-{
+.footer-text {
     color: black;
     font-size: 16px;
 }
 
-.footer-text:hover
-{
+.footer-text:hover {
     color: #137229;
+}
+
+@media (max-width:1250px) {
+    .footer-top-box {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width:850px) {
+    .footer-col-group {
+        justify-content: space-evenly;
+        align-items: start;
+        flex-direction: column;
+        width: 100%;
+        gap: 3rem;
+    }
+
+    .footer-col {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+}
+
+@media (max-width:500px)
+{
+    .footer-col-subgroup {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .copyright-text {
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .footer-col
+    {
+        width: auto;
+    }
 }

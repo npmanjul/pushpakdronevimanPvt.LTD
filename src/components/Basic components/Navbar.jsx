@@ -1,43 +1,49 @@
 import React from "react";
 import './nav.css';
-import logo from './img/logo.png';
+import logo from './img/footer logo.png';
+import MenuIcon from '@mui/icons-material/Menu';
 import Training_dropdown from './Training_dropdown';
 import Services_dropdown from "./Services_dropdown";
 import Product_dropdown from "./Product_dropdown";
 
 const Navbar = () => {
+
     return (
         <>
-            <div class="navbar">
-                <div class="logo_section">
+            <div className="navbar">
+                <div className="logo_section">
                     <img src={logo}/>
                 </div>
-                <div class="navigation">
-                    <div class="home_section">Home</div>
-                    <div class="dropdown_box">Training
-                        <div class="dropdown_boxes">
+                <div className="navigation">
+                    <div className="home_section">Home</div>
+                    <div className="dropdown_box">Training
+                        <div className="dropdown_boxes">
                         <Training_dropdown/>
                         </div>
                     </div>
-                    <div class="dropdown_box">Services
-                        <div class="dropdown_boxes ">
+                    <div className="dropdown_box">Services
+                        <div className="dropdown_boxes ">
                         <Services_dropdown/>
                         </div>
                     </div>
-                    <div class="dropdown_box">Product
-                        <div class="dropdown_boxes ">
+                    <div className="dropdown_box">Product
+                        <div className="dropdown_boxes ">
                         <Product_dropdown/>
                         </div>
                     </div>
-                    <div class="R&D_section ">R&D
+                    <div className="R&D_section ">R&D
                     </div>
-                    <div class="about_us_section ">About Us
+                    <div className="about_us_section ">About Us
                     </div>
                 </div>
-                <div class="contact_section">
-                    <button>Contact Us</button>
+                <div className="contact_section">
+                    <button>Contact Us</button>  
+                </div>
+                <div className='menu-section'>
+                <button ><MenuIcon/></button>
                 </div>
             </div>
+
         </>
     )
 }

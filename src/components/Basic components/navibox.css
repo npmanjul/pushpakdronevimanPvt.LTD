@@ -1,16 +1,15 @@
-.navi-container
-{
+.navi-container {
     height: auto;
     width: 350px;
-    box-shadow:0px 0px 10px -2.5px rgba(0, 0, 0, 0.155);
+    box-shadow: 0px 0px 10px -2.5px rgba(0, 0, 0, 0.155);
     border-radius: 20px;
     transition: all 0.4s ease-in-out;
     background-color: white;
+    cursor: pointer;
 }
 
-.navi-box
-{
-   
+.navi-box {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,17 +19,29 @@
 }
 
 
-.navi-box img
-{
+.navi-box img {
     height: 210px;
     width: 315px;
     border-radius: 10px;
-    
+    pointer-events: none;
+
 }
 
-.title
-{
+.title {
     font-size: 1.3rem;
     font-weight: 800;
     text-transform: uppercase;
+}
+
+@media (max-width:400px) {
+    .navi-container {
+        width: 320px;
+    }
+
+    .navi-box img {
+        height: 200px;
+        width: 275px;
+        border-radius: 10px;
+
+    }
 }
