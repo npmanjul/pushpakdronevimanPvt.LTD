@@ -1,0 +1,46 @@
+.dropdown-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
+}
+
+.dropdown-col
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 0.9rem;
+    flex-direction: column;
+}
+
+.dropdown-heading
+{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.dropdown-subheading-title
+{
+    font-size: 10px;
+    font-weight: 100;
+    padding: 3px;
+}
+
+.dropdown-subheading
+{
+    font-size: 17px;
+}
+
+.hov
+{
+    color: black;
+}
+
+.hov:hover
+{
+    color: #137229;
+}

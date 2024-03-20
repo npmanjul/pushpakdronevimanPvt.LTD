@@ -12,6 +12,7 @@
     position: fixed;
     width: 100%;
     background-color: white;
+    cursor: auto;
 }
 
 .navigation {
@@ -32,7 +33,7 @@
     cursor: pointer;
     padding: 20px 10px;
     transition: all 1s;
-
+    z-index: 1000;
 }
 
 
@@ -43,15 +44,17 @@
     top: 100%;
     left: -43%;
     overflow: hidden;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     transition: transform 0.5s ease;
     transform: scale(0.8);
     border-radius: 25px;
+    z-index: 1000;
 }
 
 .dropdown_box:hover .dropdown_boxes {
-    height: 400px;
+    height: auto;
     transform: scale(1);
+    box-shadow: 0 8px 16px 6px rgba(0, 0, 0, 0.205);
 }
 
 .contact_section {
