@@ -5,13 +5,7 @@
   font-family: sans-serif;
   user-select: none;
 }
-html {
-  --cursor-color: #080808;
-}
 
-html.dark-mode {
-  --cursor-color: #fff;
-}
 .container
 {
   height: 100vh;

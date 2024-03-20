@@ -20,9 +20,9 @@ return(
 
             <div className='footer-col footer-col-1'>
             <div className='footer-heading'>Workshops</div>
-            <div className='footer-text'>3-Day Workshop</div>
-            <div className='footer-text'>1-Week Workshop</div>
-            <div className='footer-text'>1-Month Workshop</div>
+            <div className='footer-text'>Workshop on Drone</div>
+            <div className='footer-text'>Workshop on Design</div>
+            <div className='footer-text'>Workshop on IoT</div>
             </div>
 
             <div className='footer-col footer-col-2'>
