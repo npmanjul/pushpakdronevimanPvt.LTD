@@ -22,7 +22,7 @@
     align-items: center;
     gap: 1.3rem;
     position: relative;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .logo_section
@@ -32,7 +32,7 @@
 
 .logo_section img {
     height: 60px;
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 .dropdown_box {
