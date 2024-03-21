@@ -13,6 +13,7 @@
     width: 100%;
     background-color: white;
     cursor: auto;
+    
 }
 
 .navigation {
@@ -40,6 +41,13 @@
     transition: all 1s;
     z-index: 1000;
 }
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+
 
 
 .dropdown_boxes {
@@ -82,10 +90,22 @@
     transition: all 0.4s ease-in-out;
 }
 
-.contact_section button:hover {
-    background-color: rgba(0, 0, 0, 0.853);
+
+
+.linkcontactus{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
+.linkcontactus.active
+{
+    color: azure;
+}
+
+.contact_section button .active
+{
+    background-color: white;
+}
 .menu-section
 {
     display: none;
@@ -99,6 +119,11 @@
     
 }
 
+.active
+{
+    color: green;
+    font-weight: 700;
+}
 
 @media (max-width:850px) {
 
