@@ -8,6 +8,7 @@ import R_D from './components/Pages/R_D';
 import Aboutus from './components/Pages/Aboutus';
 import Contactus from './components/Pages/Contactus';
 import Navbar from './components/Basic components/Navbar';
+import Error from './components/Basic components/Error';
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
                 <Route path='/rd' element={<R_D/>}/>
                 <Route path='/aboutus' element={<Aboutus/>}/>
                 <Route path='/contactus' element={<Contactus/>}/>
+                <Route path='*' element={<Error/>}/>
             </Routes>
           </BrowserRouter>
         </>

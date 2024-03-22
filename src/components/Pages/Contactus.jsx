@@ -1,15 +1,14 @@
 import React from 'react';
 import Blankspace from '../Basic components/Blankspace';
-import Footer from '../Basic components/Footer';
+import Form from '../Basic components/Form';
 
 const Contactus = () => {
   return (
     <>
            <div className='container'>
                 <Blankspace />
-                <h1>Contactus</h1>
-                
-                
+                <Form/>
+                 
             </div>
     </>
   )
