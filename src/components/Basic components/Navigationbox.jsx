@@ -1,5 +1,6 @@
 import React from "react";
 import './navigationbox.css';
+import { NavLink } from 'react-router-dom';
 import Navibox from "./Navibox";
 import trainingImage from './img/training_image.jpg';
 import servicesImage from './img/service_image.png';
@@ -9,9 +10,11 @@ const Navigationbox=()=>{
     return(
         <>
             <div className="nav-container">
-            <Navibox image={trainingImage} title={"Training"}/>
-            <Navibox image={servicesImage} title={"Services"}/>
-            <Navibox image={productImage} title={"Product"}/>
+            <NavLink to='/training' className="link"><Navibox image={trainingImage} title={"Training"}/></NavLink>
+            <NavLink to='/services' className="link"><Navibox image={servicesImage} title={"Services"}/></NavLink>
+            <NavLink to='/product' className="link"><Navibox image={productImage} title={"Product"}/></NavLink>
+            
+            
             </div>
         </>
     )

@@ -6,6 +6,7 @@
     transition: all 0.4s ease-in-out;
     background-color: white;
     cursor: pointer;
+    padding: 0.1rem;
 }
 
 .navi-box {

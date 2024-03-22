@@ -71,6 +71,9 @@ const Navbar = () => {
 
                 <div id="myNav" class="overlay">
 
+                    <div className="menu-top">
+                    <img src={logo}/>
+                    </div>
                     <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
 
                     <div class="overlay-content">
