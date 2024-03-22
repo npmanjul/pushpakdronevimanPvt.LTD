@@ -201,7 +201,13 @@
     {
         margin: 1rem 3rem;
         margin-bottom: 5rem;
-        margin-top: 4rem;
+        margin-top: 1rem;
+    }
+
+    .btn2 button {
+        background-color: rgba(245, 241, 241, 0);
+        color: black;
+        border: 1px solid black;
     }
 }
 
@@ -211,7 +217,6 @@
     {
         margin: 1rem 2.2rem;
         margin-bottom: 5rem;
-        margin-top: 4rem;
     }
     .container-btn
     {
@@ -225,7 +230,7 @@
     {
         margin: 1rem 1.5rem;
         margin-bottom: 5rem;
-        margin-top: 4rem;
+
     }
 
     .container-btn
@@ -254,7 +259,6 @@
     {
         margin: 1rem ;
         margin-bottom: 4rem;
-        margin-top: 4rem;
         padding: 20px;
     }
     .btn button {
