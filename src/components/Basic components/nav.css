@@ -13,7 +13,7 @@
     width: 100%;
     background-color: white;
     cursor: auto;
-    
+
 }
 
 .navigation {
@@ -25,8 +25,7 @@
     font-size: 20px;
 }
 
-.logo_section
-{
+.logo_section {
     cursor: pointer;
 }
 
@@ -42,7 +41,7 @@
     z-index: 1000;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: black;
 }
@@ -90,37 +89,31 @@
     transition: all 0.4s ease-in-out;
 }
 
-
-
-.linkcontactus{
+.linkcontactus {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
-.linkcontactus.active
-{
+.linkcontactus.active {
     color: azure;
 }
 
-.contact_section button .active
-{
+.contact_section button .active {
     background-color: white;
 }
-.menu-section
-{
+
+.menu-section {
     display: none;
 }
 
-.menu-section button
-{
+.menu-section button {
     background-color: white;
     border: 0;
     outline: none;
-    
+
 }
 
-.active
-{
+.active {
     color: green;
     font-weight: 700;
 }
@@ -132,29 +125,108 @@
     }
 
 
-    .contact_section button
-    {
+    .contact_section button {
         display: none;
     }
 
-    .menu-section
-{
+    .menu-section {
+        display: block;
+    }
+
+    .logo_section img {
+        height: 55px;
+        pointer-events: none;
+    }
+
+}
+
+
+@media (max-width:850px) {
+
+    .logo_section img {
+        height: 45px;
+        pointer-events: none;
+    }
+}
+
+
+/* hamburger menu */
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 14px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
     display: block;
+    transition: 0.3s;
 }
 
-.logo_section img {
-    height: 55px;
-    pointer-events: none;
+.overlay a:hover,
+.overlay a:focus {
+    color: #272626;
 }
 
+.overlay .closebtn {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    font-size: 60px;
 }
 
-
-@media (max-width:850px) 
-{
-    
-.logo_section img {
+.contact_section-menu button {
     height: 45px;
-    pointer-events: none;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
 }
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .contact_section-menu button {
+        display: block;
+    }
+}
+
+
+
+
+#sub_menu_dropdown {
+    display: none;
+
 }
