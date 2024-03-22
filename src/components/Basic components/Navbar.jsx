@@ -74,12 +74,12 @@ const Navbar = () => {
                     <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
 
                     <div class="overlay-content">
-                    <NavLink to='/' className="link" onClick={closeNav}>Home</NavLink>
-                    <NavLink to='/training' className="link" onClick={closeNav}>Training</NavLink>
-                    <NavLink to='/services' className="link" onClick={closeNav}>Services</NavLink>
-                    <NavLink to='/product' className="link" onClick={closeNav}>Product</NavLink>
-                    <NavLink to='/rd' className="link" onClick={closeNav}>R&D</NavLink>
-                    <NavLink to='/aboutus' className="link" onClick={closeNav}>About Us</NavLink>
+                        <NavLink to='/' className="link" onClick={closeNav}>Home</NavLink>
+                        <NavLink to='/training' className="link" onClick={closeNav}>Training</NavLink>
+                        <NavLink to='/services' className="link" onClick={closeNav}>Services</NavLink>
+                        <NavLink to='/product' className="link" onClick={closeNav}>Product</NavLink>
+                        <NavLink to='/rd' className="link" onClick={closeNav}>R&D</NavLink>
+                        <NavLink to='/aboutus' className="link" onClick={closeNav}>About Us</NavLink>
                         <div className="contact_section-menu">
                             <NavLink to='/contactus' className="linkcontactus" onClick={closeNav}> <button>Contact Us</button></NavLink>
                         </div>
