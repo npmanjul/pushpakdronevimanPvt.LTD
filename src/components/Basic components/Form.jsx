@@ -4,8 +4,10 @@ import instaImg from './icon/instagram-line.png';
 import linkedImg from './icon/linkedin-fill.png';
 import mailImg from './icon/mail-line.png';
 import phoneImg from './icon/phone-fill.png';
-import whatsappImg from './icon/whatsapp-line.png'
-import youtubeImg from './icon/youtube-fill.png'
+import whatsappImg from './icon/whatsapp-line.png';
+import youtubeImg from './icon/youtube-fill.png';
+import twitter from './icon/twitter-x-line.png';
+import facebookimg from './icon/facebook-fill.png'
 
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwHVBKwahGjQOPbUWiZUlx6Ekqp1rKIQqzQ18Qm0EAJ3bjyll3wPmlZPihSvBE91umZ/exec';
@@ -108,27 +110,35 @@ const Form = () => {
                 <div class="contact-container">
                     <div class="contact-box icon-hover">
                         <img src={phoneImg} alt="" />
-                        <span class="contactus-title">Call Me</span>
+                        {/* <span class="contactus-title">Call Me</span> */}
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={mailImg} alt="" />
-                        <span class="contactus-title">Email</span>
+                        {/* <span class="contactus-title">Email</span> */}
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={whatsappImg} alt="" />
-                        <span class="contactus-title">Whatsapp</span>
+                        {/* <span class="contactus-title">Whatsapp</span> */}
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={linkedImg} alt="" />
-                        <span class="contactus-title">LinkedIn</span>
+                        {/* <span class="contactus-title">LinkedIn</span> */}
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={youtubeImg} alt="" />
-                        <span class="contactus-title">Youtube</span>
+                        {/* <span class="contactus-title">Youtube</span> */}
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={instaImg} alt="" />
-                        <span class="contactus-title">Instagram</span>
+                        {/* <span class="contactus-title">Instagram</span> */}
+                    </div>
+                    <div class="contact-box icon-hover">
+                        <img src={twitter} alt="" />
+                        {/* <span class="contactus-title">Instagram</span> */}
+                    </div>
+                    <div class="contact-box icon-hover">
+                        <img src={facebookimg} alt="" />
+                        {/* <span class="contactus-title">Instagram</span> */}
                     </div>
                 </div>
             </div>
