@@ -1,0 +1,62 @@
+.quote-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.quote-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+}
+.quote-text
+{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+.symbole-size-l
+{
+   position: absolute;
+   top: -19px;
+   left: -61px;
+}
+
+.symbole-size-r
+{
+   position: absolute;
+   bottom: -19px;
+   right: -61px;
+}
+.symbole-size-l img
+{
+    height: 50px;
+    text-align: start;
+}
+
+.symbole-size-r img
+{
+    height: 50px;
+}
+
+@media (max-width:600px) {
+    .quote-text
+    {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:600px) {
+    .quote-text
+    {
+        font-size: 1rem;
+    }
+}
