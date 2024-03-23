@@ -1,0 +1,85 @@
+.objective-container
+{
+  display: contents;
+  justify-content: center;
+  align-items: center;
+}
+.objective-box
+{
+    margin: 2rem 5rem;
+    border: 2px solid black;
+    padding: 1.6rem;
+    border-radius: 15px;
+}
+
+.main-heading
+{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 18px;
+}
+
+.subheading
+{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.objective-contant{
+    font-size: 17px;
+    text-align: justify;
+}
+
+#more {display: none;}
+
+#myBtn 
+{
+    border: 0;
+    background-color: white;
+    font-size: 17px;
+    padding-top: 15px ;
+    font-weight: 700;
+    color: rgb(133, 136, 122);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width:760px) {
+    .objective-box
+{
+    margin: 2rem 3rem;
+}
+.objective-contant
+{
+    line-height: 25px;
+}
+}
+
+@media (max-width:760px) {
+    .objective-box
+{
+    margin: 2rem 2.5rem;
+    padding: 1.2rem;
+
+}
+}
+
+@media (max-width:550px) {
+    .objective-box
+{
+    margin: 2rem ;
+    padding: 1.2rem;
+
+}
+}
+
+@media (max-width:450px) {
+    .objective-box
+{
+    margin: 1.5rem ;
+    padding: 1.2rem;
+
+}
+}

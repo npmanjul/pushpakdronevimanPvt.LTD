@@ -4,6 +4,8 @@ import Footer from '../Basic components/Footer';
 import Aboutushero from '../Basic components/Aboutushero';
 import Aboutusqoute from '../Basic components/Aboutusqoute';
 import Aboutuscontainer from '../Basic components/Aboutuscontainer';
+import Missiovisionboxs from '../Basic components/Missiovisionboxs';
+import Objective from '../Basic components/Objective';
 
 const Aboutus = () => {
   return (
@@ -13,7 +15,8 @@ const Aboutus = () => {
                 <Aboutushero/>
                 <Aboutusqoute/>
                 <Aboutuscontainer/>
-                
+                <Missiovisionboxs/>
+                <Objective/>
                 <Footer />
             </div>
     </>

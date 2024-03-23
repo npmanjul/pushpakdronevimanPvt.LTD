@@ -1,0 +1,261 @@
+.missionvision-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 4rem 5rem;
+}
+
+.missionvision-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.mission-box,
+.vision-box {
+    background-color: #137229;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.box-img img {
+    height: 150px;
+    margin: 2rem;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2.5rem;
+}
+
+.box-heading {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+
+.box-title {
+    font-size: 17px;
+    color: white;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+@media (max-width:1300px) {
+
+    .mission-box,
+    .vision-box {
+        flex-direction: column;
+        height: 420px;
+    }
+
+    .box-container {
+        align-items: center;
+        padding: 2.5rem;
+        padding-top: 1rem;
+    }
+
+    .box-img img {
+        height: 150px;
+        margin: 1rem;
+    }
+
+    .box-title {
+        text-align: justify;
+    }
+}
+
+@media (max-width:1100px) {
+
+    .mission-box,
+    .vision-box {
+        height: 430px;
+    }
+
+    .box-container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .box-title {
+        line-height: 25px;
+        font-size: 17px;
+    }
+
+    .box-img img {
+        height: 130px;
+        margin: 0.3rem;
+    }
+}
+
+
+
+
+
+@media (max-width:900px) {
+
+    .mission-box,
+    .vision-box {
+        height: 260px;
+        width: 100%;
+        flex-direction: row;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .box-container {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+        align-items: start;
+    }
+    .missionvision-boxes
+    {
+        gap: 2.5rem;
+        flex-direction: column;
+    }
+
+    .box-title {
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    .box-img img {
+        height: 150px;
+        margin: 0.3rem;
+    }
+
+  
+}
+
+@media (max-width:760px) {
+    .missionvision-container
+    {
+        margin: 3rem;
+    }
+}
+
+@media (max-width:700px)
+{
+    .mission-box,
+    .vision-box {
+        height: 280px;
+        width: 100%;
+        flex-direction: row;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .box-title {
+        line-height: 22px;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width:550px) {
+
+    .missionvision-container
+    {
+        margin: 4rem 2rem;
+    }
+    .mission-box,
+    .vision-box {
+        height: 420px;
+        width: 100%;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .box-container {
+        align-items: center;
+    }
+
+    .box-img img {
+        height: 130px;
+        margin: 0.3rem;
+    }
+}
+
+@media (max-width:445px){
+
+    .missionvision-container
+    {
+        margin: 4rem 1.5rem;
+    }
+    .mission-box,
+    .vision-box {
+        height: 420px;
+        width: 100%;
+        flex-direction: column;
+        padding: 1.2rem;
+        gap: 1rem;
+    }
+
+    .box-title {
+        line-height: 22px;
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width:385px){
+
+    .missionvision-container
+    {
+        margin: 4rem 1.5rem;
+    }
+    .mission-box,
+    .vision-box {
+        height: 410px;
+        width: 100%;
+        flex-direction: column;
+        padding: 1.2rem;
+        gap: 1rem;
+    }
+
+    .box-title {
+        line-height: 22px;
+        font-size: 16px;
+    }
+    .box-img img {
+        height: 120px;
+        margin: 0.3rem;
+    }
+}
+
+@media (max-width:350px){
+
+    .missionvision-container
+    {
+        margin: 4rem 1.5rem;
+    }
+    .mission-box,
+    .vision-box {
+        height: 430px;
+        width: 100%;
+        flex-direction: column;
+        padding: 1.2rem;
+        gap: 1rem;
+    }
+
+    .box-title {
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    
+}
