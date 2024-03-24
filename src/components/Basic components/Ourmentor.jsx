@@ -47,7 +47,7 @@ const Ourmentor = () => {
 
                            
                             <div className='social-media-icons'>
-                                <div className='socialmedialogos'>
+                                <div className='profile-socialmedialogos'>
                                     <div className='circle'><YouTubeIcon /></div>
                                     <div className='circle'><FacebookIcon /></div>
                                     <div className='circle'><LinkedInIcon /></div>

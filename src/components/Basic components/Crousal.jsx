@@ -82,7 +82,7 @@ const Crousal = () => {
         const autoPlay = () => {
             if (window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
             // Autoplay the carousel after every 2500 ms
-            timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 1500);
+            timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2000);
         }
         autoPlay();
 
@@ -90,7 +90,7 @@ const Crousal = () => {
         carousel.addEventListener("mousemove", dragging);
         document.addEventListener("mouseup", dragStop);
         carousel.addEventListener("scroll", infiniteScroll);
-        wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+        // wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
         wrapper.addEventListener("mouseleave", autoPlay);
 
         // Clean-up function to remove event listeners

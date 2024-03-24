@@ -58,7 +58,7 @@
     padding: 20px 0px;
 }
 
-.socialmedialogos {
+.profile-socialmedialogos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,6 +94,8 @@
     .profile-heading-subtitle {
         text-align: center;
     }
+
+   
 }
 
 @media (max-width:800px) {
@@ -126,6 +128,10 @@
     .profile-image img {
         height: 190px;
         width: 190px;
+    }
+    .profile-socialmedialogos {
+       
+        padding-bottom: 15px;
     }
 }
 
