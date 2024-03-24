@@ -1,0 +1,53 @@
+.aboutus-container
+{
+    margin: 0 6rem;
+}
+
+@media (max-width:1050px) {
+    .aboutus-container
+{
+    margin: 0 4rem;
+}
+}
+
+@media (max-width:850px) {
+    .aboutus-container
+{
+    margin: 0 3rem;
+}
+}
+
+@media (max-width:600px) {
+    .aboutus-container
+{
+    margin: 0 2.5rem;
+}
+}
+
+@media (max-width:520px) {
+    .aboutus-container
+{
+    margin: 0 2rem;
+}
+}
+
+@media (max-width:400px) {
+    .aboutus-container
+{
+    margin: 0 1.3rem;
+}
+}
+
+@media (max-width:375px) {
+    .aboutus-container
+{
+    margin: 0 1rem;
+}
+}
+
+@media (max-width:355px) {
+    .aboutus-container
+{
+    margin: 0 0.7rem;
+}
+}

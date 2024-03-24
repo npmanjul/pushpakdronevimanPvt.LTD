@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem 5rem;
+    margin: 3rem 0rem;
 }
 
 .headline-subcontainer {
@@ -86,9 +86,6 @@
 }
 
 @media (max-width:760px) {
-    .headline-container {
-        margin: 3rem;
-    }
 
     .headline-heading {
         font-size: 1.3rem;
@@ -112,7 +109,7 @@
 
 @media (max-width:550px) {
     .headline-container {
-        margin: 2rem 1.5rem;
+        margin: 2rem 0rem;
     }
 
     .headline-heading {
@@ -137,7 +134,7 @@
 
 @media (max-width:450px) {
     .headline-container {
-        margin: 2rem 1.2rem;
+        margin: 2rem 0rem;
     }
 
     .headline-subcontainer
@@ -167,7 +164,7 @@
 
 @media (max-width:370px) {
     .headline-container {
-        margin: 1.6rem 1.1rem;
+        margin: 1.6rem 0rem;
     }
 
  

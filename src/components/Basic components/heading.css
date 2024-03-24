@@ -24,7 +24,10 @@
     background-color: black;
     width: 90%;
 }
-
+.linewidth
+{
+    width: 100%;
+}
 @media (max-width:450px) {
     .pageheading
 {

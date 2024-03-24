@@ -1,0 +1,150 @@
+.aboutus-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.profile-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.profile-main-box {
+    padding: 2rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    border-radius: 15px;
+}
+
+.profile-image img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    margin: 1rem;
+    object-fit: cover;
+}
+
+.profile-heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.profile-heading-subtitle {
+    font-size: 1.5rem;
+    padding-top: 5px;
+
+}
+
+.profile-description {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.profile-contant {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1.7rem;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.socialmedialogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+@media (max-width:1200px) {
+    .profile-main-box {
+        padding: 1rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .profile-contant {
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+    .profile-heading-subtitle {
+        text-align: center;
+    }
+}
+
+@media (max-width:800px) {
+    .profile-contant {
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .profile-contant {
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .profile-heading {
+        font-size: 2rem;
+    }
+
+    .profile-heading-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .profile-description {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .profile-image img {
+        height: 190px;
+        width: 190px;
+    }
+}
+
+@media (max-width:370px) {
+
+    .profile-main-box {
+        padding: 0.6rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .profile-contant {
+        padding: 5px;
+    }
+
+    .profile-heading {
+        font-size: 1.8rem;
+    }
+
+    .profile-heading-subtitle {
+        font-size: 1.1rem;
+    }
+}

@@ -91,51 +91,8 @@
   input[type=number] {
     -moz-appearance: textfield;
   }
-  
-  .contact {
-    width: 100%;
-    /* padding: 0 1rem; */
-  }
-  
-  .contact-heading {
-    text-align: center;
-    font-size: 3.5rem;
-    padding: 2rem 0;
-  }
-  
-  .contact-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    gap: 5rem;
-    flex-wrap: wrap;
-    padding: 2rem 3rem;
-    padding-top: 6rem;
-  }
-  
-  .contactus-title {
-    font-size: 1.3rem;
-    font-weight: 600;
-    /* padding: 1.5rem; */
-    padding-top: 1rem;
-    text-align: center;
-  }
-  
-  .contact-box {
-    text-align: center;
-  }
-  
-  .contact-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* border: 1px solid black; */
-  }
-  
-  
-  
+
+    
   .submit-btn button {
     height: 2.2rem;
     width: auto;
@@ -169,6 +126,52 @@
       color: rgb(0, 0, 0);
       
   }
+  
+  .contact {
+    margin: 2rem 5rem;
+  }
+  
+  .contact-heading {
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 2rem 0;
+  }
+  
+  .contact-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-auto-columns: 1fr;
+      gap: 19px 20px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        ". . . ."
+        ". . . .";
+      height: 400px; 
+  }
+  
+  .contactus-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    /* padding: 1.5rem; */
+    padding-top: 1rem;
+    text-align: center;
+  }
+  
+  .contact-box {
+    text-align: center;
+  }
+  
+  .contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+  }
+  
+  
+
 
   @media  (max-width:590px) {
     .form-box 
@@ -226,3 +229,47 @@
     }
   
   }
+
+  @media (max-width:770px)
+  {
+    .contact {
+      margin: 2rem 3rem;
+    }
+    .contact-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        gap: 29px 30px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". . ."
+          ". . ."
+          ". . .";
+        height: auto;
+      }
+      
+  }
+
+  @media (max-width:530px)
+  {
+    .contact {
+      margin: 2rem 0rem;
+      
+    }
+    .contact-container {
+      display: grid; 
+      grid-auto-columns: 1fr; 
+      grid-template-columns: 1fr 1fr; 
+      grid-template-rows: 1fr 1fr 1fr 1fr; 
+      gap: 29px 30px; 
+      grid-template-areas: 
+        ". ."
+        ". ."
+        ". ."
+        ". ."; 
+      height: auto; 
+      }
+      
+  }
+  

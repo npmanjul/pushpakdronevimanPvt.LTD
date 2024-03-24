@@ -6,7 +6,7 @@
 }
 .objective-box
 {
-    margin: 2rem 5rem;
+    margin: 2rem 0rem;
     border: 2px solid black;
     padding: 1.6rem;
     border-radius: 15px;
@@ -49,7 +49,7 @@
 @media (max-width:760px) {
     .objective-box
 {
-    margin: 2rem 3rem;
+    margin: 2rem 0rem;
 }
 .objective-contant
 {
@@ -57,19 +57,11 @@
 }
 }
 
-@media (max-width:760px) {
-    .objective-box
-{
-    margin: 2rem 2.5rem;
-    padding: 1.2rem;
-
-}
-}
 
 @media (max-width:550px) {
     .objective-box
 {
-    margin: 2rem ;
+    margin: 2rem 0rem;
     padding: 1.2rem;
 
 }
@@ -78,7 +70,7 @@
 @media (max-width:450px) {
     .objective-box
 {
-    margin: 1.5rem ;
+    margin: 1.5rem 0rem ;
     padding: 1.2rem;
 
 }

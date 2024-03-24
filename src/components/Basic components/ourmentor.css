@@ -1,0 +1,165 @@
+.aboutus-ourmentor-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.ourmentor-profile-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.ourmentor-profile-main-box {
+    padding: 2rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    border-radius: 15px;
+}
+
+.ourmentor-profile-image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 1rem;
+    object-fit: cover;
+}
+
+.ourmentor-profile-heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.ourmentor-profile-heading-subtitle {
+    font-size: 1.5rem;
+    padding-top: 5px;
+
+}
+
+.ourmentor-profile-description {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.ourmentor-profile-contant {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1.7rem;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.socialmedialogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+@media (max-width:1200px) {
+    .ourmentor-profile-main-box {
+        padding: 1rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .ourmentor-profile-contant {
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+    .ourmentor-profile-heading-subtitle {
+        text-align: center;
+    }
+}
+
+@media (max-width:800px) {
+    .ourmentor-profile-contant {
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .ourmentor-profile-contant {
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .ourmentor-profile-heading
+    {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .ourmentor-profile-heading-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .ourmentor-profile-description {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .ourmentor-profile-image img {
+        height: 190px;
+        width: 190px;
+    }
+}
+
+@media (max-width:370px) {
+
+    .ourmentor-profile-main-box {
+        padding: 0.6rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .ourmentor-profile-contant {
+        padding: 5px;
+    }
+
+    .ourmentor-profile-heading {
+        font-size: 1.8rem;
+    }
+
+    .ourmentor-profile-heading-subtitle {
+        font-size: 1.1rem;
+    }
+}
+
+#ourmentormore {display: none;}
+
+#ourmentorBtn
+{
+    background-color:white ;
+    font-size:20px ;
+    font-weight: 700;
+    border: 0;
+    color: rgb(92, 109, 92);
+    text-decoration: underline;
+    cursor: pointer;
+}

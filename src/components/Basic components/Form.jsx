@@ -110,35 +110,35 @@ const Form = () => {
                 <div class="contact-container">
                     <div class="contact-box icon-hover">
                         <img src={phoneImg} alt="" />
-                        {/* <span class="contactus-title">Call Me</span> */}
+                        <span class="contactus-title">Call Me</span>
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={mailImg} alt="" />
-                        {/* <span class="contactus-title">Email</span> */}
+                        <span class="contactus-title">Email</span>
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={whatsappImg} alt="" />
-                        {/* <span class="contactus-title">Whatsapp</span> */}
+                        <span class="contactus-title">Whatsapp</span>
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={linkedImg} alt="" />
-                        {/* <span class="contactus-title">LinkedIn</span> */}
+                        <span class="contactus-title">LinkedIn</span>
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={youtubeImg} alt="" />
-                        {/* <span class="contactus-title">Youtube</span> */}
+                        <span class="contactus-title">Youtube</span>
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={instaImg} alt="" />
-                        {/* <span class="contactus-title">Instagram</span> */}
+                        <span class="contactus-title">Instagram</span>
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={twitter} alt="" />
-                        {/* <span class="contactus-title">Instagram</span> */}
+                        <span class="contactus-title">Twitter(X)</span>
                     </div>
                     <div class="contact-box icon-hover">
                         <img src={facebookimg} alt="" />
-                        {/* <span class="contactus-title">Instagram</span> */}
+                        <span class="contactus-title">Facebook</span>
                     </div>
                 </div>
             </div>
