@@ -20,7 +20,7 @@ const tdata = [
     },
     {
         title: "2 Weeks Workshop",
-        imgsrc: nullimg,
+        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2F1weekdesign.jpg?alt=media&token=d51710fe-122b-4d69-92c4-baa2d4dbc7d7",
         contant: "Explore the history, applications, and technology of 3D printing, learn beginner-friendly design tools, and gain hands- on experience in slicing software.In the design segment, journey from Fusion 360 basics to hands - on exercises, simulations, and CAM fundamentals, culminating in a showcase of participants' projects. Join us for an immersive exploration of design and 3D printing innovations." 
     },
     {

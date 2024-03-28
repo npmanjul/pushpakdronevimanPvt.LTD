@@ -1,5 +1,5 @@
 import React from 'react';
-import './WorkshopOnDroneDesign.css';
+import './threeDayWorkshopOnDrone.css';
 import Footer from '../../Basic components/Footer'
 import Blankspace from '../../Basic components/Blankspace';
 import Maincontainerimg from '../components/Maincontainerimg';

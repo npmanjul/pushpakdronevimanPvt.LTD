@@ -1,5 +1,6 @@
 import React from 'react';
 import './container.css';
+import { Link } from 'react-router-dom';
 
 const Container = (props) => {
     return (
@@ -18,7 +19,7 @@ const Container = (props) => {
 
                     <div className='container-btn-right container-btn'>
                         <div className='btn btn1'>
-                            <button>Know More..</button>
+                        <Link to={props.knowMore}><button>Know More..</button></Link>
                         </div>
                         <div className='btn btn2'>
                         <button>Enquary</button>

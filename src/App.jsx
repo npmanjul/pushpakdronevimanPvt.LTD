@@ -10,6 +10,7 @@ import Contactus from './components/Pages/Contactus';
 import Navbar from './components/Basic components/Navbar';
 import Error from './components/Basic components/Error';
 import Threedayworkshopondrone from './components/SubPage/Training Workshop/ThreeDayWorkshopOnDrone'
+import Oneweekworkshopondrone from './components/SubPage/Training Workshop/OneWeekWorkshopOnDrone'
 
 
 
@@ -28,6 +29,7 @@ const App = () => {
                 <Route path='/aboutus' element={<Aboutus/>}/>
                 <Route path='/contactus' element={<Contactus/>}/>
                 <Route path='/threedayworkshopondrone' element={<Threedayworkshopondrone/>}/>
+                <Route path='/oneweekworkshopondrone' element={<Oneweekworkshopondrone/>}/>
                 <Route path='*' element={<Error/>}/>
             </Routes>
           </BrowserRouter>
