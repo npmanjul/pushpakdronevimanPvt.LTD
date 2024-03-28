@@ -8,6 +8,7 @@
 {
     height: 70vh;
     width: 100%;
+    pointer-events: none;
 }
 
 @media (max-width:1350px) {
@@ -34,6 +35,6 @@
 @media (max-width:500px) {
     .subpage-image-container img
 {
-    height: 35vh;
+    height: 25vh;
 }
 }

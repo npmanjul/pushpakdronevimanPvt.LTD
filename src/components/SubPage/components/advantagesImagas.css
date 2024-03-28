@@ -31,6 +31,7 @@
     border: 2px solid black;
     width: 100%;
     height: 375px;
+    pointer-events: none;
 }
 
 
