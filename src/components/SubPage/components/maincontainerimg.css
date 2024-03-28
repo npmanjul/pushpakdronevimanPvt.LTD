@@ -1,0 +1,39 @@
+.subpage-image-container
+{
+    height: auto;
+    width: 100%;
+}
+
+.subpage-image-container img
+{
+    height: 70vh;
+    width: 100%;
+}
+
+@media (max-width:1350px) {
+    .subpage-image-container img
+{
+    height: 60vh;
+}
+}
+
+@media (max-width:1200px) {
+    .subpage-image-container img
+{
+    height: 55vh;
+}
+}
+
+@media (max-width:1000px) {
+    .subpage-image-container img
+{
+    height: 45vh;
+}
+}
+
+@media (max-width:500px) {
+    .subpage-image-container img
+{
+    height: 35vh;
+}
+}

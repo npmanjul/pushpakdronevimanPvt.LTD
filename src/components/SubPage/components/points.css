@@ -1,0 +1,24 @@
+.point-text
+{
+    font-size: 1.1rem;
+    padding-left: 5rem;
+    padding-top: 5px;
+}
+
+@media (max-width:1000px) {
+    .point-text
+{
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-top: 7px;
+}
+}
+@media (max-width:500px) {
+    .point-text
+{
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-top: 7px;
+}
+}
+

@@ -9,6 +9,8 @@ import Aboutus from './components/Pages/Aboutus';
 import Contactus from './components/Pages/Contactus';
 import Navbar from './components/Basic components/Navbar';
 import Error from './components/Basic components/Error';
+import Threedayworkshopondrone from './components/SubPage/Training Workshop/ThreeDayWorkshopOnDrone'
+
 
 
 const App = () => {
@@ -25,6 +27,7 @@ const App = () => {
                 <Route path='/rd' element={<R_D/>}/>
                 <Route path='/aboutus' element={<Aboutus/>}/>
                 <Route path='/contactus' element={<Contactus/>}/>
+                <Route path='/threedayworkshopondrone' element={<Threedayworkshopondrone/>}/>
                 <Route path='*' element={<Error/>}/>
             </Routes>
           </BrowserRouter>
