@@ -3,7 +3,7 @@ import './WorkshopOnDroneDesign.css';
 import Footer from '../../Basic components/Footer'
 import Blankspace from '../../Basic components/Blankspace';
 import Maincontainerimg from '../components/Maincontainerimg';
-import dwData from '../subpage data/Trainingworkshop'
+import dwData from '../subpage data/Training Workshop/Trainingworkshop'
 import Subpageheading from '../components/Subpageheading';
 import Dayheading from '../components/Dayheading';
 import Sessionheading from '../components/Sessionheading';

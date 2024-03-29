@@ -1,0 +1,36 @@
+.top-heading{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 5px 15px;
+    padding-right: 25px;
+    /* background-color: aquamarine; */
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(276deg, rgba(255, 255, 255, 1) 0%, rgba(0, 159, 255, 1) 81%);
+    background: -webkit-linear-gradient(276deg, rgba(255, 255, 255, 1) 0%, rgba(0, 159, 255, 1) 81%);
+    background: linear-gradient(276deg, rgba(255, 255, 255, 1) 0%, rgba(0, 159, 255, 1) 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#009fff", GradientType=1);
+    display: inline-block;
+    border-radius: 25px 0px 0px 25px;
+}
+
+@media (max-width:700px) {
+    .top-heading
+    {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:600px) {
+    .top-heading
+    {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:500px) {
+    .top-heading
+    {
+        font-size: 1.1rem;
+    }
+}

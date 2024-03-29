@@ -10,7 +10,10 @@ import Contactus from './components/Pages/Contactus';
 import Navbar from './components/Basic components/Navbar';
 import Error from './components/Basic components/Error';
 import Threedayworkshopondrone from './components/SubPage/Training Workshop/ThreeDayWorkshopOnDrone'
-import Oneweekworkshopondrone from './components/SubPage/Training Workshop/OneWeekWorkshopOnDrone'
+import Oneweekworkshopondrone from './components/SubPage/Training Workshop/OneWeekWorkshopOnDrone';
+import OneweekworkshoponDesign from './components/SubPage/Training Workshop/OneWeekWorkshopOnDesign';
+import TwoWeekWorkshopondesign from './components/SubPage/Training Workshop/TwoWeekWorkshopondesign';
+import OneMonthWorkshopOnDesign from './components/SubPage/Training Workshop/OneMonthWorkshopOnDesign';
 
 
 
@@ -30,6 +33,9 @@ const App = () => {
                 <Route path='/contactus' element={<Contactus/>}/>
                 <Route path='/threedayworkshopondrone' element={<Threedayworkshopondrone/>}/>
                 <Route path='/oneweekworkshopondrone' element={<Oneweekworkshopondrone/>}/>
+                <Route path='/oneweekworkshopondesign' element={<OneweekworkshoponDesign/>}/>
+                <Route path='/twoweekworkshopondesign' element={<TwoWeekWorkshopondesign/>}/>
+                <Route path='/onemonthworkshopondesign' element={<OneMonthWorkshopOnDesign/>}/>
                 <Route path='*' element={<Error/>}/>
             </Routes>
           </BrowserRouter>
