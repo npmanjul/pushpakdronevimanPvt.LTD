@@ -22,7 +22,6 @@ const OneMonthWorkshopOnDesign = () => {
                         <Maincontainerimg imgsrc={dwData[4].imgloc} />
                         <Subpageheading topheading={dwData[4].heading} />
                         <div className='subpage-content'>
-                            <Topheading topHeading={dwData[4].tophading1}/>
                             <Dayheading daysheading={dwData[4].day1heading} />
                             <Sessionheading sessionheading={dwData[4].session1heading} />
                             <Points Point={dwData[4].point1} />
