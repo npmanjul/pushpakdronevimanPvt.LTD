@@ -28,7 +28,7 @@ const Footer = () => {
                         </div>
 
                         <div className='footer-col footer-col-2'>
-                            <div className='footer-heading'>Drone Services</div>
+                            <div className='footer-heading'>Services</div>
                             <div className='footer-text'>Agriculture Drone</div>
                             <div className='footer-text'>Drone Testing</div>
                             <div className='footer-text'>Drone Repair Services</div>
@@ -43,7 +43,7 @@ const Footer = () => {
                             <div className='footer-text'>Mapping Drone</div>
                             <div className='footer-text'>3D Printed Objects</div>
                             <div className='footer-text'>Iot based Kits</div>
-                            <div className='footer-text'>Microcontroller</div>
+                            {/* <div className='footer-text'>Microcontroller</div> */}
                         </div>
 
                         <div className='footer-col footer-col-4'>

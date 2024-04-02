@@ -19,9 +19,9 @@ const Training = () => {
                 <Containerleft img={tdata[2].imgsrc} headingtitle={tdata[2].title} textcontent={tdata[2].contant} knowMore={'/oneweekworkshopondesign'}/>
                 <ContainerRight img={tdata[3].imgsrc} headingtitle={tdata[3].title} textcontent={tdata[3].contant} knowMore={'/twoweekworkshopondesign'} />
                 <Containerleft img={tdata[4].imgsrc} headingtitle={tdata[4].title} textcontent={tdata[4].contant} knowMore={'/onemonthworkshopondesign'}/>
-                <Heading heading={"Internet Of Things (IoT)"} />
+                {/* <Heading heading={"Internet Of Things (IoT)"} />
                 <ContainerRight img={tdata[5].imgsrc} headingtitle={tdata[5].title} textcontent={tdata[5].contant}/>
-                <Containerleft img={tdata[6].imgsrc} headingtitle={tdata[6].title} textcontent={tdata[6].contant}/>
+                <Containerleft img={tdata[6].imgsrc} headingtitle={tdata[6].title} textcontent={tdata[6].contant}/> */}
                 <Footer />
             </div>
     </>

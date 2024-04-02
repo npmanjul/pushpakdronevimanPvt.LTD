@@ -1,6 +1,6 @@
 const nullimg="https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/temporary-image.png?alt=media&token=9a903ec7-2bc8-4d62-8a3b-2db8b1c1082a";
 
-const nulltext=" Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed non volutpat turpis Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor. Lorem ipsum dolor sit amet, consectetur adipiscing ..."
+const nulltext="null text"
 
 const sdata=[
     {

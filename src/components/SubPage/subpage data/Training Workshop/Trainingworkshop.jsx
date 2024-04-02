@@ -37,7 +37,7 @@ const dwData = [
         img1: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2FDrone%20component.png?alt=media&token=860d30aa-050e-4a6f-88fe-acf43d2d39e8",
         img2: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2Fcomponent%20img%202.jpg?alt=media&token=b4e60062-c684-4b3f-88f8-5d1429ec2a58",
         img3: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2Ftraining-image%201.jpg?alt=media&token=cada5cb7-0189-4f33-a92e-1c578ed869f6",
-        img4: nullimg,
+        img4: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2FPicture5.jpg?alt=media&token=47d448d9-7f3c-4144-a055-3a1d5e71996c",
         title1: "text ?",
         title2: "text ?",
         title3: "text ?",
@@ -191,8 +191,8 @@ const dwData = [
 
         img1: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2FDesign%20workshop%2Fcam%20follower.png?alt=media&token=1ded6b49-a88c-45c0-9061-253065afe33e",
         img2: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2FDesign%20workshop%2Fdesign%20image.png?alt=media&token=9e6b74e5-e5a5-4d7a-bc8b-1cc1b8f2e0d2",
-        img3: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2FDesign%20workshop%2Ffan%20design.png?alt=media&token=943c7837-4a6d-4f99-bbc2-eb6770d1edca",
-        img4:nullimg,
+        img3: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2FBeFunky-collage%20(3).jpg?alt=media&token=80c95b09-74e4-4456-a367-c709c9f929dc",
+        img4: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2FBeFunky-collage%20(4).jpg?alt=media&token=fca1d607-6c08-4d89-955c-906a2fec6f76",
         title1: "text ?",
         title2: "text ?",
         title3: "text ?",
@@ -294,7 +294,7 @@ const dwData = [
         title4: "text ?",
     },
     {
-        imgloc: nullimg,
+        imgloc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20Images%2F1%20Month%20workshop%20design.png?alt=media&token=e0f29bdc-e98d-476c-b450-315f869bfb3c",
 
         heading: "One Month on Design",
 
@@ -397,9 +397,9 @@ const dwData = [
 
 
         img1: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2FDesign%20workshop%2FBeFunky-collage.jpg?alt=media&token=4f335050-90b0-4c8d-a7c3-29393a5011a5",
-        img2: nullimg,
+        img2: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2FBeFunky-collage%20(5).jpg?alt=media&token=790c33a6-b8cd-47e2-9045-b2cc2915d942",
         img3: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2FDesign%20workshop%2FPicture13.png?alt=media&token=3420bc34-eff4-4717-853d-348c304245fe",
-        img4:nullimg,
+        img4:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2FDesign%20workshop%2Fdesign%20imag.jpg?alt=media&token=996afff0-5427-4ff2-882e-ca3f060ee630",
         title1: "text ?",
         title2: "text ?",
         title3: "text ?",

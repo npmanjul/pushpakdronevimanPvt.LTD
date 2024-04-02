@@ -22,12 +22,12 @@ const Product = () => {
                 <Containerleft img={pdata[6].imgsrc} headingtitle={pdata[6].title} textcontent={pdata[6].contant}/>
                 <ContainerRight img={pdata[7].imgsrc} headingtitle={pdata[7].title} textcontent={pdata[7].contant}/>
                 <Containerleft img={pdata[8].imgsrc} headingtitle={pdata[8].title} textcontent={pdata[8].contant}/>
-                <Heading heading={"Internet Of Things (IoT)"} />
+                {/* <Heading heading={"Internet Of Things (IoT)"} />
                 <ContainerRight img={pdata[9].imgsrc} headingtitle={pdata[9].title} textcontent={pdata[9].contant}/>
                 <Containerleft img={pdata[10].imgsrc} headingtitle={pdata[10].title} textcontent={pdata[10].contant}/>
                 <ContainerRight img={pdata[11].imgsrc} headingtitle={pdata[11].title} textcontent={pdata[11].contant}/>
                 <Containerleft img={pdata[12].imgsrc} headingtitle={pdata[12].title} textcontent={pdata[12].contant}/>
-                <ContainerRight img={pdata[13].imgsrc} headingtitle={pdata[13].title} textcontent={pdata[13].contant}/>
+                <ContainerRight img={pdata[13].imgsrc} headingtitle={pdata[13].title} textcontent={pdata[13].contant}/> */}
                 
                 <Footer />
             </div>
