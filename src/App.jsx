@@ -1,5 +1,5 @@
-import React from 'react';
-import {BrowserRouter,Route,Routes} from 'react-router-dom';
+import React,{ useEffect }from 'react';
+import {BrowserRouter,Route,Routes,useLocation} from 'react-router-dom';
 import Home from './components/Pages/Home';
 import Training from './components/Pages/Training';
 import Services from './components/Pages/Services';
@@ -19,11 +19,22 @@ import ComingSoonPage from './components/Basic components/ComingSoonPage';
 
 
 const App = () => {
+
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0); // Scrolls to the top of the page when the pathname changes
+    }, [pathname]);
+  
+    return null;
+  }
+
     return (
         <>
           <BrowserRouter>
           <Navbar/>
-            
+            <ScrollToTop />
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/training' element={<Training/>}/>
