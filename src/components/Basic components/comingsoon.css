@@ -1,0 +1,139 @@
+.comingsoon-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.comingsoon-container-inner {
+    overflow-y: hidden;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 5rem;
+    gap: 2rem;
+}
+
+.comingsoon-top-heading {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+
+.comingsoon-top-sub-heading {
+    font-size: 4rem;
+    padding-top: 10px;
+}
+
+.comingsoon-email-input {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+}
+
+.comingsoon-email-input form {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.comingsoon-subcription-heading {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 0.7rem;
+
+}
+
+.comingsoon-email-inputfield {
+    background-color: white;
+    border-radius: 0;
+    width: 250px;
+    height: 50px;
+}
+
+.comingsoon-email-input button {
+    width: 70px;
+    height: 50px;
+    outline: none;
+    border: 0;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.comingsoon-email-input button:hover {
+    background-color: rgba(0, 128, 0, 0.705);
+}
+
+.comingsoon-subcription-submit {
+    color: rgb(7, 197, 7);
+    padding-top: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+@media (max-width:1200px) {
+    .comingsoon-container-inner {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 0rem;
+    }
+
+    .comingsoon-top-heading {
+        text-align: center;
+    }
+}
+
+
+@media (max-width:700px) {
+    .comingsoon-top-heading {
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .comingsoon-top-sub-heading {
+        font-size: 3rem;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width:700px) {
+    .comingsoon-top-heading {
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .comingsoon-top-sub-heading {
+        font-size: 2.5rem;
+        padding-top: 12px;
+    }
+}
+
+@media (max-width:400px)
+{
+    .comingsoon-email-inputfield {
+        background-color: white;
+        border-radius: 0;
+        width: 220px;
+        height: 40px;
+    }
+    
+    .comingsoon-email-input button {
+        width: 60px;
+        height: 40px;
+
+    }
+}

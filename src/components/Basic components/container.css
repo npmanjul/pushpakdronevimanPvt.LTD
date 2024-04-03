@@ -28,6 +28,7 @@
     border-radius: 10px;
     width: 440px;
     object-fit: contain;
+    pointer-events: none;
 }
 
 .contant-box

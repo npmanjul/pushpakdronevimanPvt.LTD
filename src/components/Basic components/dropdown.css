@@ -13,13 +13,13 @@
     display: flex;
     justify-content: center;
     align-items: start;
-    gap: 0.9rem;
+    gap: 1.1rem;
     flex-direction: column;
 }
 
 .dropdown-heading
 {
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 700;
 }
 
@@ -38,9 +38,24 @@
 .hov
 {
     color: black;
+    text-decoration: none;
 }
 
 .hov:hover
 {
     color: #137229;
 }
+
+ .hov > .active 
+{
+    color: #137229;
+    text-decoration: none;
+    
+}
+
+.dropdown-subpart li
+{
+   padding-top: 15px;
+   padding-left: 50px;
+}
+

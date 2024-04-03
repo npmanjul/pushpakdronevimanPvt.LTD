@@ -32,7 +32,7 @@ const Form = () => {
 
         form.addEventListener('submit', submitForm);
 
-        // Cleanup function to remove event listener when component unmounts
+        
         return () => {
             form.removeEventListener('submit', submitForm);
         };

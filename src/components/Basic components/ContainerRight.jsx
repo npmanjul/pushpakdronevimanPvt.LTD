@@ -22,7 +22,7 @@ const Container = (props) => {
                         <Link to={props.knowMore}><button>Know More..</button></Link>
                         </div>
                         <div className='btn btn2'>
-                        <button>Enquary</button>
+                        <button>Enquiry</button>
                         </div>
                     </div>
 
