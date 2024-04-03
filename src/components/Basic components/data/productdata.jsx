@@ -6,7 +6,7 @@ const nulltext="null text"
 const pdata=[
     {
             title: "Agriculture Drone",
-            imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2FAgriculture%20Drone.jpg?alt=media&token=6f8b50e6-0b94-40b1-a5e3-dea3cf190026",
+            imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2Fagiculture%20drone%203.jpg?alt=media&token=99029497-9184-4326-9654-cdbab4d8c99f",
             contant:"Leading the way in agricultural precision, I offer assembled and tested spraying drones through my startup at competitive rates. Delivering optimal solutions to ensure your fields thrive,plus enjoy a complimentary 6-month service for sustained success 1. Precision Drones  2. Reliable Solutions 3. Competitive Rates 4. Thriving Fields 5. Complimentary Service "
     },
     {
@@ -27,7 +27,7 @@ const pdata=[
     {
             title: "Drone Components / Kit",
             imgsrc: nullimg,
-            contant:nulltext
+            contant:"Pushpak Drone Viman, where we specialize in providing drone kits for enthusiasts and professionals alike. Our kits are tailored to meet the needs of both commercial purposes and educational training in the drone industry. Explore our wide range of drone components designed to empower your aerial endeavours."
     },
     {
             title: "Customised Objects",
