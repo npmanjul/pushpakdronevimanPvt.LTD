@@ -15,6 +15,7 @@ import OneweekworkshoponDesign from './components/SubPage/Training Workshop/OneW
 import TwoWeekWorkshopondesign from './components/SubPage/Training Workshop/TwoWeekWorkshopondesign';
 import OneMonthWorkshopOnDesign from './components/SubPage/Training Workshop/OneMonthWorkshopOnDesign';
 import ComingSoonPage from './components/Basic components/ComingSoonPage';
+import Agriculturedrone from './components/SubPage/Product Page/Agriculturedrone';
 
 
 
@@ -49,6 +50,8 @@ const App = () => {
                 <Route path='/twoweekworkshopondesign' element={<TwoWeekWorkshopondesign/>}/>
                 <Route path='/onemonthworkshopondesign' element={<OneMonthWorkshopOnDesign/>}/>
                 <Route path='/comingsoonpage' element={<ComingSoonPage/>}/>
+                <Route path='/agriculturepage' element={<Agriculturedrone/>}/>
+                
                 <Route path='*' element={<Error/>}/>
             </Routes>
           </BrowserRouter>

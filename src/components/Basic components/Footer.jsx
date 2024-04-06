@@ -32,7 +32,7 @@ const Footer = () => {
                             <div className='footer-text'>Agriculture Drone</div>
                             <div className='footer-text'>Drone Testing</div>
                             <div className='footer-text'>Drone Repair Services</div>
-                            <div className='footer-text'>Testing And Calibration</div>
+                            <div className='footer-text'>Testing & Calibration</div>
                         </div>
                     </div>
 
@@ -63,7 +63,7 @@ const Footer = () => {
                         <div className='circle'><InstagramIcon /></div>
                         <div className='circle'><XIcon /></div>
                     </div>
-                    <div className='copyright-text'>© 2024 Pushpak drome Viman Pvt. LTD, All Right Reserved</div>
+                    <div className='copyright-text'>© 2024 Pushpak Drone Viman Pvt. LTD, All Right Reserved</div>
                 </div>
             </div>
         </>
