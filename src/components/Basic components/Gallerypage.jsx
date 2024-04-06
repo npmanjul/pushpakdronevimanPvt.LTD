@@ -6,7 +6,8 @@ const Gallerypage = () => {
     return (
         <>
             
-            <div className='gallery-container'>
+          <div className='gallery-container'>
+          <div className='gallery-container-inner'>
                 <GalleryImg imgSrc="https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/GalleryImg%2Fimg%202.jpg?alt=media&token=4af4b919-ef89-4c1b-886f-c51d4a947577"/>
 
                 <GalleryImg imgSrc="https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/GalleryImg%2Fimg%201.jpg?alt=media&token=c3cdddaa-6387-432d-805a-4fc60da51aad"/>
@@ -19,7 +20,8 @@ const Gallerypage = () => {
 
                 <GalleryImg imgSrc="https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/GalleryImg%2Fimg7.jpg?alt=media&token=8b0417f8-471c-4c49-8423-1fe18cc1dd5b"/>
                  
-           </div>       
+           </div>
+          </div>       
                 
         </>
     )
