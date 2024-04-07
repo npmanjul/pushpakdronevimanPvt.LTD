@@ -9,8 +9,8 @@ const GalleryImg = (props) => {
                     alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. "
                     title="Photo by Giacomo Lucarini for Unsplash" />
                 <figcaption class="header__caption" role="presentation">
-                    <h1 class="title title--primary">Heading</h1>
-                    <h2 class="title title--secondary">Sub heading</h2>
+                    <h1 class="title title--primary">{props.headingSrc}</h1>
+                    <h2 class="title title--secondary">{props.subheadingSrc}</h2>
                 </figcaption>
             </figure>
         </>
