@@ -11,12 +11,12 @@ const sdata=[
     {
         title: "Mapping & Surveillance",
         imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2Fmapping%26%20servillancing.jpg?alt=media&token=af748ad6-1006-43c9-923f-08405272129a",
-        contant:nulltext
+        contant:"Mapping involves representing spatial information like forests, roads, railway tracks, and water bodies. Historically, ground measurements were used, but now aircraft like planes and helicopters, equipped with diverse sensors, including temperature, capture data. However, aircraft operations are costly and require skilled operators. Mapping drones offer a cost-effective and user-friendly alternative. They autonomously capture high-quality images, ensuring efficient data collection."
     },
     {
         title: "Aerial Photography & Videography",
         imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2FIMG-20231124-WA0003.jpg?alt=media&token=bde3fd54-c18d-495d-98d5-1410af824472",
-        contant:nulltext
+        contant:"Pushpak Drone Viman is equipped with state-of-the-art aerial photography and videography capabilities. Our drones feature high-resolution cameras with advanced stabilization technology to capture stunning images and videos from various angles and altitudes. With precise GPS navigation systems and intelligent flight controls, our drones ensure smooth and stable operation even in challenging environments."
     },
     {
         title: "Drone Assembly",

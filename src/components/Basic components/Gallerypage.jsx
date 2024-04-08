@@ -16,12 +16,8 @@ const Gallerypage = () => {
             </div>)
         })}
       </div>
-
-
-
-
     </>
   )
 }
 
-export default Gallerypage
+export default Gallerypage;
