@@ -9,11 +9,11 @@ const pdata=[
             imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2Fagiculture%20drone%203.jpg?alt=media&token=99029497-9184-4326-9654-cdbab4d8c99f",
             contant:"Leading the way in agricultural precision, I offer assembled and tested spraying drones through my startup at competitive rates. Delivering optimal solutions to ensure your fields thrive,plus enjoy a complimentary 6-month service for sustained success 1. Precision Drones  2. Reliable Solutions 3. Competitive Rates 4. Thriving Fields 5. Complimentary Service "
     },
-    {
-            title: "Surveillance Drone",
-            imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2Fsrvillancedrone.jpg?alt=media&token=b10f62c4-9880-40cb-83fa-e34181e08296",
-            contant:" Elevating security with innovation! Our startup specializes in surveillance drones on 3D printed frames, providing customers with cutting-edge solutions at competitive rates.Your safety, our priority!  1. Innovative Security   2. Surveillance Drones  3. 3D Printed Frames  4. Cutting-edge Solutions 5. Priority Safety"
-    },
+//     {
+//             title: "Surveillance Drone",
+//             imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2Fsrvillancedrone.jpg?alt=media&token=b10f62c4-9880-40cb-83fa-e34181e08296",
+//             contant:" Elevating security with innovation! Our startup specializes in surveillance drones on 3D printed frames, providing customers with cutting-edge solutions at competitive rates.Your safety, our priority!  1. Innovative Security   2. Surveillance Drones  3. 3D Printed Frames  4. Cutting-edge Solutions 5. Priority Safety"
+//     },
     {
             title: "Videography Drone",
             imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2Fmapping%26%20servillancing.jpg?alt=media&token=71cbde70-ea97-43ca-ab41-1737b2206c5b",

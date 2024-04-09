@@ -48,11 +48,11 @@
 
 @media (max-width:800px) {
     .subpage-main-container {
-        margin: 2rem;
+        margin: 1.5rem;
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:550px) {
     .subpage-main-container {
         margin: 1.9rem 0.5rem;
     }
