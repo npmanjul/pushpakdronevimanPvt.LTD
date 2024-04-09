@@ -20,6 +20,18 @@ const pData=[
         img2:nullimg,
         img3:nullimg,
         img4:nullimg,
+    },
+    {
+        heading:"Videography Drone",
+        imgloc:nullimg,
+        point1:"Videography Drone",
+        point2:"Construction and Surveying",
+        point3:"News Reporting",
+        point4:"Wedding Photography/Videography",
+        img1:nullimg,
+        img2:nullimg,
+        img3:nullimg,
+        img4:nullimg,
 
     }
 ]

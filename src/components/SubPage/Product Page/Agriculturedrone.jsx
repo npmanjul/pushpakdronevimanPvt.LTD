@@ -3,7 +3,7 @@ import './productpage.css';
 import Blankspace from '../../Basic components/Blankspace';
 import Maincontainerimg from '../components/Maincontainerimg';
 import pData from '../subpage data/Product Data/Productdata';
-import Subpageheading from '../components/Subpageheading';
+import Subpageheading from '../components/Subpageheading'; 
 import Paragraph from '../components/Paragraph';
 import Points from '../components/Points';
 import Heading from '../components/Heading';

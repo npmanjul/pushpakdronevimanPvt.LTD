@@ -21,7 +21,7 @@ const sdata=[
     {
         title: "Drone Assembly",
         imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2FDrone%20Assembly.jpg?alt=media&token=f5020b0d-8071-49f8-b74f-2a9c3599bbc4",
-        contant: nulltext
+        contant: "At Pushpak Drone Viman, we specialize in meticulously assembling drones tailored to specific needs. Each drone undergoes a detailed process where we select frames, motors, ESCs, and flight controllers optimized for stable flying and advanced features like stabilization and GPS navigation. We ensure precision integration of components such as propellers, batteries, and radio systems, along with high-quality Power Distribution Boards for steady power distribution."
     },
     {
         title: "Drone Testing",
