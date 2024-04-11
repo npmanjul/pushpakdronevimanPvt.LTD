@@ -2,8 +2,8 @@
 import React, { useEffect } from 'react';
 import './crousal.css';
 import cdata from './data/Crousaldata';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import LinkedInImg from '../Basic components/icon/linkedin-box-fill.png'
+import emailImg from '../Basic components/icon/mail-line-silver.png'
 
 const Crousal = () => {
 
@@ -82,7 +82,7 @@ const Crousal = () => {
         const autoPlay = () => {
             if (window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
             // Autoplay the carousel after every 2500 ms
-            timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 1500);
+            timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2000);
         }
         autoPlay();
 
@@ -117,15 +117,20 @@ const Crousal = () => {
                                     <span>{data.domin}</span>
 
                                     <span class="profile-socialmedia">
-                                        <div class="icon">
-                                            <LinkedInIcon />
-                                        </div>
-                                        <div class="icon">
-                                            <MailOutlineIcon />
-                                        </div>
+                                        <a href={data.linkedIn}>
+                                            <div class="icon">
+                                                <img src={LinkedInImg} />
+                                            </div>
+                                        </a>
+                                        <a href={`mailto:${data.email}`}>
+                                            <div class="icon">
+                                                <img src={emailImg} />
+                                            </div>
+                                        </a>
                                     </span>
                                 </li>
-                    )})}
+                            )
+                        })}
                     </ul>
                 </div>
             </div>

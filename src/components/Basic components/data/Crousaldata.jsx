@@ -8,15 +8,9 @@ const cdata = [
         name: "Ankit Kumar",
         domin: "Drone",
         email: "",
-        linkedIn: ""
+        linkedIn: "https://www.linkedin.com/in/ankitkumar5gc/"
     },
-    {
-        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2Fanjul.jpg?alt=media&token=05b784b5-2fe9-4bc7-ba41-747a699a488c",
-        name: "Anjul Singh",
-        domin: "Software Development",
-        email: "",
-        linkedIn: ""
-    },
+  
     {
         imgsrc: nullimg,
         name: "Priyanshu Mishra",
@@ -30,6 +24,14 @@ const cdata = [
         domin: "Sales & Marketing",
         email: "",
         linkedIn: ""
+    },
+
+    {
+        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2Fanjul.jpg?alt=media&token=05b784b5-2fe9-4bc7-ba41-747a699a488c",
+        name: "Anjul Singh",
+        domin: "Software Development",
+        email: "anjulsingh462@gmail.com",
+        linkedIn: "https://www.linkedin.com/in/anjul-singh-3500a1219"
     },
 
     {
@@ -58,7 +60,7 @@ const cdata = [
         name: "Mohit",
         domin: "IoT",
         email: "",
-        linkedIn: ""
+        linkedIn: "https://www.linkedin.com/in/mohit-kumar-55a388191/"
     },
     {
         imgsrc: nullimg,

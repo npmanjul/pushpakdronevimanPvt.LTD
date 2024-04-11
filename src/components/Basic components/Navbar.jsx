@@ -1,6 +1,6 @@
 import React from "react";
 import './nav.css';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from './img/footer logo.png';
 import MenuIcon from '@mui/icons-material/Menu';
 import Training_dropdown from './Training_dropdown';
@@ -28,7 +28,9 @@ const Navbar = () => {
         <>
             <div className="navbar">
                 <div className="logo_section">
-                    <img src={logo} />
+                    <Link to='/'>
+                        <img src={logo} />
+                    </Link>
                 </div>
                 <div className="navigation">
                     <div className="home_section">
@@ -72,7 +74,7 @@ const Navbar = () => {
                 <div id="myNav" class="overlay">
 
                     <div className="menu-top">
-                    <img src={logo}/>
+                        <img src={logo} />
                     </div>
                     <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
 

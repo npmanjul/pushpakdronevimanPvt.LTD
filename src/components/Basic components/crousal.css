@@ -112,6 +112,11 @@
     padding: 10px 0;
 }
 
+.icon img
+{
+  height: 25px;
+}
+
 @media screen and (max-width: 900px) {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 2) - 9px);

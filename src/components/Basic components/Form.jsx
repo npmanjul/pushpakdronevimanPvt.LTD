@@ -1,31 +1,24 @@
 import React, { useEffect } from 'react';
 import './form.css';
-import instaImg from './icon/instagram-line.png';
-import linkedImg from './icon/linkedin-fill.png';
-import mailImg from './icon/mail-line.png';
-import phoneImg from './icon/phone-fill.png';
-import whatsappImg from './icon/whatsapp-line.png';
-import youtubeImg from './icon/youtube-fill.png';
-import twitter from './icon/twitter-x-line.png';
-import facebookimg from './icon/facebook-fill.png'
+
 
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwHVBKwahGjQOPbUWiZUlx6Ekqp1rKIQqzQ18Qm0EAJ3bjyll3wPmlZPihSvBE91umZ/exec';
 
 const Form = () => {
+
+    var msg = document.getElementById("conform-msg");
     useEffect(() => {
         const form = document.forms['submit-to-google-sheet'];
-        const msg = document.getElementById("conform-msg");
+        msg = document.getElementById("conform-msg");
 
         const submitForm = (e) => {
             e.preventDefault();
             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                 .then(response => {
-                    msg.innerHTML = "Submit Succesfully !";
+                    console.log("ok");
+                   
 
-                    setTimeout(function(){
-                        msg.innerHTML = "";
-                    }, 5000);
                 })
                 .catch(error => console.error('Error!', error.message));
         };
@@ -37,6 +30,14 @@ const Form = () => {
             form.removeEventListener('submit', submitForm);
         };
     }, []);
+
+    const showmsg=()=>{
+        msg.innerHTML = "Submit Succesfully !";
+
+        setTimeout(function(){
+            msg.innerHTML = "";
+        }, 5000);
+    }
 
     return (
         <>
@@ -96,7 +97,7 @@ const Form = () => {
 
 
                             <div class="submit-btn">
-                                <button type="submit">Submit</button>
+                                <button type="submit" onClick={ showmsg}>Submit</button>
                                 <div id="conform-msg">&nbsp;</div>
                             </div>
 
@@ -106,7 +107,7 @@ const Form = () => {
                 </div>
             </div>
 
-            <div class="contact">
+            {/* <div class="contact">
                 <div class="contact-container">
                     <div class="contact-box icon-hover">
                         <img src={phoneImg} alt="" />
@@ -141,7 +142,7 @@ const Form = () => {
                         <span class="contactus-title">Facebook</span>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
