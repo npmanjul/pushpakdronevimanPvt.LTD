@@ -82,7 +82,7 @@ const Crousal = () => {
         const autoPlay = () => {
             if (window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
             // Autoplay the carousel after every 2500 ms
-            timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2000);
+            timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 1500);
         }
         autoPlay();
 
@@ -109,20 +109,23 @@ const Crousal = () => {
             <div className='crousal-container'>
                 <div className="wrapper">
                     <ul className="carousel">
-                        <li class="card">
-                            <div class="img"><img src={cdata[0].imgsrc} alt="img" draggable="false" /></div>
-                            <h2>{cdata[0].name}</h2>
-                            <span>{cdata[0].domin}</span>
+                        {cdata.map(function (data) {
+                            return (
+                                <li class="card">
+                                    <div class="img"><img src={data.imgsrc} alt="img" draggable="false" /></div>
+                                    <h2>{data.name}</h2>
+                                    <span>{data.domin}</span>
 
-                            <span class="profile-socialmedia">
-                                <div class="icon">
-                                    <LinkedInIcon/>
-                                </div>
-                                <div class="icon">
-                                    <MailOutlineIcon/>
-                                </div>
-                            </span>
-                        </li>
+                                    <span class="profile-socialmedia">
+                                        <div class="icon">
+                                            <LinkedInIcon />
+                                        </div>
+                                        <div class="icon">
+                                            <MailOutlineIcon />
+                                        </div>
+                                    </span>
+                                </li>
+                    )})}
                     </ul>
                 </div>
             </div>
