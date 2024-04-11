@@ -7,7 +7,7 @@ const Herosection = () => {
         
             <div className="herosection-container">
                 <div className="hero-box">
-                    <div className="hero-title">Pushpak drone viman</div>
+                    <h1 className="hero-title">Pushpak drone viman</h1>
                 </div>
             </div>
         </>
