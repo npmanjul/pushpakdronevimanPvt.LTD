@@ -6,6 +6,9 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
+import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
     return (
@@ -47,9 +50,15 @@ const Footer = () => {
                         </div>
 
                         <div className='footer-col footer-col-4'>
-                            <div className='footer-heading'>About Us</div>
-                            <div className='footer-heading'>Contact Us</div>
-                            <div className='footer-heading'>R&D</div>
+                            <div className='footer-heading'>
+                                <Link to='/aboutus' className="footer-link">About Us</Link>
+                            </div>
+                            <div className='footer-heading'>
+                            <Link to='/contactus' className="footer-link">Contact Us</Link>
+                            </div>
+                            <div className='footer-heading'>
+                            <Link to='/rd' className="footer-link">R&D</Link>
+                            </div>
                         </div>
                     </div>
                   </div>
@@ -58,7 +67,7 @@ const Footer = () => {
                 <div className='footer-buttom-box'>
                     <div className='socialmedialogos'>
                         <div className='circle'><YouTubeIcon /></div>
-                        <div className='circle'><FacebookIcon /></div>
+                        <div className='circle'><FacebookSharpIcon /></div>
                         <div className='circle'><LinkedInIcon /></div>
                         <div className='circle'><InstagramIcon /></div>
                         <div className='circle'><XIcon /></div>
