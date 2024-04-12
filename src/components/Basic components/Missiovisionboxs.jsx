@@ -11,7 +11,7 @@ const Missiovisionboxs = () => {
                 <div className='missionvision-boxes'>
                     <div className='mission-box'>
                         <div className='box-img'>
-                            <img src={visionImg} />
+                            <img src={visionImg} alt='vision' />
                         </div>
                         <div className='box-container'>
                             <div className='box-heading'>
@@ -24,7 +24,7 @@ const Missiovisionboxs = () => {
                     </div>
                     <div className='vision-box'>
                         <div className='box-img'>
-                            <img src={missionImg} />
+                            <img src={missionImg} alt='mission' />
                         </div>
                         <div className='box-container'>
                             <div className='box-heading'>

@@ -8,7 +8,7 @@ const Aboutuscontainer = () => {
             <div className='headline-container'>
                 <div className='headline-subcontainer'>
                 <div className='image-section'>
-                <img src={companyImage}/>
+                <img src={companyImage} alt='img'/>
                 </div>
                 <div className='headline-content-section'>
                 <div className='headline-heading'>India’s Most Dependable Drone Startup</div>

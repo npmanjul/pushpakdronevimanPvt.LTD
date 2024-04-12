@@ -15,7 +15,7 @@ const Aboutusprofile = () => {
         <div className='profile-boxes'>
           <div className='profile-main-box'>
             <div className='profile-image'>
-              <img src={founderImage} />
+              <img src={founderImage} alt='sumit singh' />
             </div>
             <div className='profile-contant'>
               <div className='profile-heading'>
@@ -40,7 +40,7 @@ const Aboutusprofile = () => {
           </div>
           <div className='profile-main-box'>
             <div className='profile-image'>
-              <img src={cofounderImage}/>
+              <img src={cofounderImage} alt='dharmendra singh'/>
             </div>
             <div className='profile-contant'>
               <div className='profile-heading'>

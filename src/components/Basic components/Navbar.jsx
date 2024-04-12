@@ -29,7 +29,7 @@ const Navbar = () => {
             <div className="navbar">
                 <div className="logo_section">
                     <Link to='/'>
-                        <img src={logo} />
+                        <img src={logo}  alt="logo"/>
                     </Link>
                 </div>
                 <div className="navigation">
@@ -74,7 +74,7 @@ const Navbar = () => {
                 <div id="myNav" class="overlay">
 
                     <div className="menu-top">
-                        <img src={logo} />
+                        <img src={logo}  alt="logo"/>
                     </div>
                     <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
 

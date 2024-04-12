@@ -119,12 +119,12 @@ const Crousal = () => {
                                     <span class="profile-socialmedia">
                                         <a href={data.linkedIn}>
                                             <div class="icon">
-                                                <img src={LinkedInImg} />
+                                                <img src={LinkedInImg} alt='LinkedIn' />
                                             </div>
                                         </a>
                                         <a href={`mailto:${data.email}`}>
                                             <div class="icon">
-                                                <img src={emailImg} />
+                                                <img src={emailImg} alt='email'/>
                                             </div>
                                         </a>
                                     </span>

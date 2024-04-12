@@ -17,47 +17,47 @@ const Socialmedia = () => {
             
             <abbr title="Instagram">
                 <div className='social-media-form-icons'>
-                    <img src={instaImg} />
+                    <img src={instaImg} alt='icon' />
                 </div>
             </abbr>
 
                 <abbr title="LinkedIn">
                 <div className='social-media-form-icons'>
-                    <img src={linkedImg} />
+                    <img src={linkedImg} alt='icon'/>
                 </div>
                 </abbr>
 
                 <abbr title="Email">
                 <div className='social-media-form-icons'>
-                    <img src={mailImg} />
+                    <img src={mailImg} alt='icon'/>
                 </div>
                 </abbr>
                
 
                 <abbr title="Call Us">
                 <div className='social-media-form-icons'>
-                    <img src={phoneImg} />
+                    <img src={phoneImg} alt='icon'/>
                 </div>
                 </abbr>
 
 
                 <abbr title="Whatsapp">
                 <div className='social-media-form-icons'>
-                    <img src={whatsappImg} />
+                    <img src={whatsappImg} alt='icon'/>
                 </div>
                 </abbr>
                 
 
                 <abbr title="YouTube">
                 <div className='social-media-form-icons'>
-                    <img src={youtubeImg} />
+                    <img src={youtubeImg}alt='icon' />
                 </div>
                 </abbr>
 
 
                 <abbr title="Twitter(X)">
                     <div className='social-media-form-icons'>
-                        <img src={twitter} />
+                        <img src={twitter} alt='icon' />
                     </div>
                 </abbr>
 
@@ -65,7 +65,7 @@ const Socialmedia = () => {
 
                 <abbr title="Facebook">
                     <div className='social-media-form-icons'>
-                        <img src={facebookimg} />
+                        <img src={facebookimg} alt='icon' />
                     </div>
                 </abbr>
             </div>

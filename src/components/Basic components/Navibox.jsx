@@ -6,7 +6,7 @@ const Navibox = (props) => {
         <>
             <div className="navi-container">
                 <div className="navi-box">
-                    <img src={props.image} />
+                    <img src={props.image} alt="img" />
                     <div className="navi-title">
                         {props.title}
                     </div>

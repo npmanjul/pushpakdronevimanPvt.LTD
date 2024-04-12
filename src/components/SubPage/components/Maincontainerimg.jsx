@@ -5,7 +5,7 @@ const Maincontainerimg = (props) => {
     return (
         <>
             <div className='subpage-image-container'>
-                <img src={props.imgsrc} />
+                <img src={props.imgsrc}  alt='img'/>
             </div>
         </>
     )
