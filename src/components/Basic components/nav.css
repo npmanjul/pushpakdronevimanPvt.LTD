@@ -55,7 +55,7 @@
     width: 1000px;
     position: absolute;
     top: 100%;
-    left: -43%;
+    left: -38%;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     transition: transform 0.5s ease;
@@ -150,6 +150,20 @@
     }
 }
 
+@media (max-width:1300px) {
+    .dropdown_boxes {
+        width: 900px;
+        left: -27%;
+    }
+}
+
+@media (max-width:950px) {
+    .dropdown_boxes {
+        width: 835px;
+        left: -21%;
+    }
+}
+
 
 /* hamburger menu */
 
@@ -224,14 +238,12 @@
     }
 }
 
-.menu-top
-{
-   position: relative;
+.menu-top {
+    position: relative;
     width: 100%;
 }
 
-.menu-top img
-{
+.menu-top img {
     position: absolute;
     height: 46px;
     top: 19px;
