@@ -9,7 +9,7 @@ const Aboutusqoute = () => {
             <div className='quote-container'>
                 <div className='quote-box'>
                 <div className='symbole-size-l'>
-                <img src={lquote}/>
+                <img src={lquote} alt='comma'/>
                 </div>
                 <div className='quote-text'>
                     Drones soar as modern marvels, weaving through skies to
@@ -17,7 +17,7 @@ const Aboutusqoute = () => {
                     redefine possibilities with their aerial prowess.
                 </div>
                 <div className='symbole-size-r'>
-                <img src={rquote}/>
+                <img src={rquote} alt='comma'/>
                 </div>
                 </div>
             </div>

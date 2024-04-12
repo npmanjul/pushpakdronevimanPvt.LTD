@@ -17,7 +17,7 @@ const Product = () => {
                 <Containerleft img={pdata[2].imgsrc} headingtitle={pdata[2].title} textcontent={pdata[2].contant}/>
                 <ContainerRight img={pdata[3].imgsrc} headingtitle={pdata[3].title} textcontent={pdata[3].contant}/>
                 <Heading heading={"3d printing"} />
-                <Containerleft img={pdata[4].imgsrc} headingtitle={pdata[4].title} textcontent={pdata[4].contant}/>
+                <Containerleft img={pdata[4].imgsrc} headingtitle={pdata[4].title} textcontent={pdata[4].contant} knowMore={'/customisedobjectpage'}/>
                 <ContainerRight img={pdata[5].imgsrc} headingtitle={pdata[5].title} textcontent={pdata[5].contant}/>
                 <Containerleft img={pdata[6].imgsrc} headingtitle={pdata[6].title} textcontent={pdata[6].contant}/>
                 <ContainerRight img={pdata[7].imgsrc} headingtitle={pdata[7].title} textcontent={pdata[7].contant}/>

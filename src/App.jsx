@@ -17,7 +17,7 @@ import OneMonthWorkshopOnDesign from './components/SubPage/Training Workshop/One
 import ComingSoonPage from './components/Basic components/ComingSoonPage';
 import Agriculturedrone from './components/SubPage/Product Page/Agriculturedrone';
 import Videographydrone from './components/SubPage/Product Page/Videographydrone';
-
+import CustomisedObject from './components/SubPage/Product Page/CustomisedObject';
 
 
 const App = () => {
@@ -53,6 +53,7 @@ const App = () => {
                 <Route path='/comingsoonpage' element={<ComingSoonPage/>}/>
                 <Route path='/agriculturepage' element={<Agriculturedrone/>}/>
                 <Route path='/videographydronepage' element={<Videographydrone/>}/>
+                <Route path='/customisedobjectpage' element={<CustomisedObject/>}/>
                 <Route path='*' element={<Error/>}/>
             </Routes>
           </BrowserRouter>

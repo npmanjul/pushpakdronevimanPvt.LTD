@@ -17,7 +17,7 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className='footer-top-box'>
                     <div className='footer-logo'>
-                        <div className='footer-logo-img'><img src={footerlogoImage} /></div>
+                        <div className='footer-logo-img'><img src={footerlogoImage} alt='logo'/></div>
                         <div className='logo-title'>Pushpak Drone Viman</div>
                     </div>
 

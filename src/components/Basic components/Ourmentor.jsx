@@ -30,7 +30,7 @@ const Ourmentor = () => {
                 <div className='ourmentor-profile-boxes'>
                     <div className='ourmentor-profile-main-box'>
                         <div className='ourmentor-profile-image'>
-                            <img src={sonisirImg} />
+                            <img src={sonisirImg} alt='dr.sk soni sir' />
                         </div>
                         <div className='ourmentor-profile-contant'>
                             <div className='ourmentor-profile-heading'>

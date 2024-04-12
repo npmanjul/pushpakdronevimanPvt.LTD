@@ -1,0 +1,46 @@
+.shopping-card-container
+{
+    height: auto;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 1rem;
+    
+}
+
+.shopping-image-container
+{
+    height: 220px;
+    width: auto;
+    
+    
+}
+
+.shopping-image-container img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.shopping-product-heading
+{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/* .shopping-buynow-button
+{
+    padding-bottom: 1rem;
+} */
+
+.shopping-buynow-button img
+{
+    width: 100px;
+    height: 40px;
+    
+}
