@@ -33,7 +33,61 @@ const pData=[
         img3:nullimg,
         img4:nullimg,
 
-    }
+    },
+    {
+        heading:"Mapping Drone",
+        imgloc:nullimg,
+        point1:"Precision Mapping",
+        point2:"Landscape Survey",
+        point3:"Urban Planning",
+        point4:"Capturing image/data for real- time monitoring crops.",
+        point5:"Delivery of Blood samples/ Medicine.",
+        point6:"Flying drones over burned areas can assist in assessing the damage caused by fires, including those occurring in residential and non-residential buildings, as well as wildfires. Such incidents lead to a multitude of health issues, including human and animal fatalities, and substantial economic losses due to structural, equipment, and vegetation damage. Utilizing drone’s aids in verifying insurance claims and facilitates the post-fire assessment and recovery process.",
+        img1:nullimg,
+        img2:nullimg,
+        img3:nullimg,
+        img4:nullimg,	 
+    },
+    {
+        heading:"Drone Components/Kits",
+        imgloc:nullimg,
+        img1:nullimg,
+        img2:nullimg,
+        img3:nullimg,
+        img4:nullimg,	 
+    },
+    {
+        heading:"Customised Object",
+        imgloc:nullimg,
+        img1:nullimg,
+        img2:nullimg,
+        img3:nullimg,
+        img4:nullimg,	 
+    },
+    {
+        heading:"Lithography 3D Printing",
+        imgloc:nullimg,
+        img1:nullimg,
+        img2:nullimg,
+        img3:nullimg,
+        img4:nullimg,	 
+    },
+    {
+        heading:"3D Printed Object",
+        imgloc:nullimg,
+        img1:nullimg,
+        img2:nullimg,
+        img3:nullimg,
+        img4:nullimg,	 
+    },
+    {
+        heading:"Eductional Tools",
+        imgloc:nullimg,
+        img1:nullimg,
+        img2:nullimg,
+        img3:nullimg,
+        img4:nullimg,	 
+    },
 ]
 
 export default pData;

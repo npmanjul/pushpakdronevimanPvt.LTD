@@ -18,6 +18,11 @@ import ComingSoonPage from './components/Basic components/ComingSoonPage';
 import Agriculturedrone from './components/SubPage/Product Page/Agriculturedrone';
 import Videographydrone from './components/SubPage/Product Page/Videographydrone';
 import CustomisedObject from './components/SubPage/Product Page/CustomisedObject';
+import Mappingdrone from './components/SubPage/Product Page/Mappingdrone';
+import Lithographicprinting from './components/SubPage/Product Page/Lithographicprinting';
+import Mappingandservillancing from './components/SubPage/Services/Mappingandservillancing';
+import Aerialphotographyandvideography from './components/SubPage/Services/Aerialphotographyandvideography ';
+import Droneassembly from './components/SubPage/Services/Droneassembly';
 
 
 const App = () => {
@@ -54,6 +59,11 @@ const App = () => {
                 <Route path='/agriculturepage' element={<Agriculturedrone/>}/>
                 <Route path='/videographydronepage' element={<Videographydrone/>}/>
                 <Route path='/customisedobjectpage' element={<CustomisedObject/>}/>
+                <Route path='/mappingdronepage' element={<Mappingdrone/>}/>
+                <Route path='/lithographyprintingpage' element={<Lithographicprinting/>}/>
+                <Route path='/mappingandservillancingpage' element={<Mappingandservillancing/>}/>
+                <Route path='/aerialphotographyandvideographypage' element={<Aerialphotographyandvideography/>}/>
+                <Route path='/droneassembly' element={<Droneassembly/>}/>
                 <Route path='*' element={<Error/>}/>
             </Routes>
           </BrowserRouter>
