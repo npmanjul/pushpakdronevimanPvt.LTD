@@ -26,17 +26,17 @@ const sdata=[
     {
         title: "Drone Testing",
         imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2Fdrone%20testing.jpg?alt=media&token=775adfef-1a0a-4c49-a641-b35785b39ec6",
-        contant: nulltext
+        contant: "At Pushpak Drone Viman, we test every part of our drones really well to make sure they're exactly what our clients want. We pick frames that are great for flying smoothly, and we choose motors, ESCs, and flight controllers that work together perfectly. Our aim is to give our clients drones that work amazingly well and even better than they expected. We make sure of this by testing everything carefully before we deliver them."
     },
     {
         title: "Drone Repair Service",
         imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2FWhatsApp%20Image%202024-01-23%20at%204.53.24%20PM.jpeg.jpg?alt=media&token=026273e7-a49a-4a56-8e13-dcd502b5a320",
-        contant: nulltext
+        contant: "Pushpak Drone Viman, we provide comprehensive drone repair services. Our team meticulously tests every part of your drone to ensure it meets your expectations. We specialize in repairing frames, motors, ESCs, flight controllers, and more. Our goal is to return your drone to you in excellent working condition, exceeding your expectations. Trust us to carefully diagnose and fix any issues with your drone before returning it to you."
     },
     {
         title: "Testing and Calibration",
         imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2Ftesting%20and%20callibration.jpg?alt=media&token=36f59498-987e-41c6-bbcb-c32ccccde5d0",
-        contant: nulltext
+        contant: "we provide comprehensive drone repair services. Our team meticulously tests every part of your drone to ensure it meets your expectations. We specialize in repairing frames, motors, ESCs, flight controllers, and more. Our goal is to return your drone to you in excellent working condition, exceeding your expectations. Trust us to carefully diagnose and fix any issues with your drone before returning it to you."
     },
 ]
 

@@ -6,7 +6,7 @@ const Points = (props) => {
     <>
         <div className='point-text'>
         <ul>
-            <li>{props.Point}</li>
+            <li><b>{props.pointHeadingtext}</b>{props.Point}</li>
         </ul>
         </div>
     </>

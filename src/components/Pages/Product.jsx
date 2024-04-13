@@ -14,14 +14,14 @@ const Product = () => {
                 <Heading heading={"Drone"} />
                 <Containerleft img={pdata[0].imgsrc} headingtitle={pdata[0].title} textcontent={pdata[0].contant}  knowMore={'/agriculturepage'}/>
                 <ContainerRight img={pdata[1].imgsrc} headingtitle={pdata[1].title} textcontent={pdata[1].contant} knowMore={'/videographydronepage'}/>
-                <Containerleft img={pdata[2].imgsrc} headingtitle={pdata[2].title} textcontent={pdata[2].contant}/>
+                <Containerleft img={pdata[2].imgsrc} headingtitle={pdata[2].title} textcontent={pdata[2].contant} knowMore={'/mappingdronepage'}/>
                 <ContainerRight img={pdata[3].imgsrc} headingtitle={pdata[3].title} textcontent={pdata[3].contant}/>
                 <Heading heading={"3d printing"} />
                 <Containerleft img={pdata[4].imgsrc} headingtitle={pdata[4].title} textcontent={pdata[4].contant} knowMore={'/customisedobjectpage'}/>
-                <ContainerRight img={pdata[5].imgsrc} headingtitle={pdata[5].title} textcontent={pdata[5].contant}/>
+                <ContainerRight img={pdata[5].imgsrc} headingtitle={pdata[5].title} textcontent={pdata[5].contant} knowMore={'/lithographyprintingpage'} />
                 <Containerleft img={pdata[6].imgsrc} headingtitle={pdata[6].title} textcontent={pdata[6].contant}/>
                 <ContainerRight img={pdata[7].imgsrc} headingtitle={pdata[7].title} textcontent={pdata[7].contant}/>
-                {/* <Containerleft img={pdata[8].imgsrc} headingtitle={pdata[8].title} textcontent={pdata[8].contant}/> */}
+                {/* <Containerleft img={pdata[8].imgsrc} headingtitle={pdata[8].title} textcontent={pdata[8].contant}/> */} 
                 {/* <Heading heading={"Internet Of Things (IoT)"} />
                 <ContainerRight img={pdata[9].imgsrc} headingtitle={pdata[9].title} textcontent={pdata[9].contant}/>
                 <Containerleft img={pdata[10].imgsrc} headingtitle={pdata[10].title} textcontent={pdata[10].contant}/>
