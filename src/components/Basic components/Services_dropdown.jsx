@@ -1,6 +1,6 @@
 import React from "react";
 import './dropdown.css';
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 
 const Services_dropdown = () => {
     return (
@@ -13,11 +13,11 @@ const Services_dropdown = () => {
                         
                             <summary><NavLink to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Agriculture Drone Application</NavLink></summary>
                             <ul type="none" className="dropdown-subpart">
-                                <li class="dropdown-subpart hov"><NavLink to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Crop Spraying</NavLink></li>
+                                <li class="dropdown-subpart hov"><Link to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Crop Spraying</Link></li>
                                 <li class="dropdown-subpart hov">
-                                <NavLink to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Seeds</NavLink></li>
+                                <Link to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Seeds</Link></li>
                                 <li class="dropdown-subpart hov">
-                                <NavLink to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Fertilizers</NavLink></li>
+                                <Link to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Fertilizers</Link></li>
                             </ul>
                         </details>
                     </div>
@@ -32,29 +32,29 @@ const Services_dropdown = () => {
                     </div>
                     <div className="dropdown-subheading hov">
                     <details>
-                            <summary>Drone Testing</summary>
+                            <summary><NavLink to='/Dronetesting' className="dropdown-subheading hov">Drone Testing</NavLink></summary>
                             <ul type="none" className="dropdown-subpart">
-                                <li class="dropdown-subpart hov">Battery Testing, ESC Testing</li>
-                                <li class="dropdown-subpart hov">Diagnostic Assessment</li>
-                                <li class="dropdown-subpart hov">Performance Testing</li>
+                                <li class="dropdown-subpart hov"><Link to='/Dronetesting' className="dropdown-subheading hov">Battery Testing, ESC Testing</Link></li>
+                                <li class="dropdown-subpart hov"><Link to='/Dronetesting' className="dropdown-subheading hov">Diagnostic Assessment</Link></li>
+                                <li class="dropdown-subpart hov"><Link to='/Dronetesting' className="dropdown-subheading hov">Performance Testing</Link></li>
                             </ul>
                         </details>
                     </div>
                     <div className="dropdown-subheading hov">
                     <details>
-                            <summary>Drone Repair Service</summary>
+                            <summary><NavLink to='/Dronerepairservicepage' className="dropdown-subheading hov">Drone Repair Service</NavLink></summary>
                             <ul type="none" className="dropdown-subpart">
-                                <li class="dropdown-subpart hov">Component Replacement</li>
-                                <li class="dropdown-subpart hov">Software Update</li>
-                                <li class="dropdown-subpart hov">Structural Repair</li>
+                                <li class="dropdown-subpart hov"><Link to='/Dronerepairservicepage' className="dropdown-subheading hov">Component Replacement</Link></li>
+                                <li class="dropdown-subpart hov"><Link to='/Dronerepairservicepage' className="dropdown-subheading hov">Software Update</Link></li>
+                                <li class="dropdown-subpart hov"><Link to='/Dronerepairservicepage' className="dropdown-subheading hov">Structural Repair</Link></li>
                             </ul>
                         </details>
                     </div>
                 </div>
                 <div className="dropdown-col">
                     <div className="dropdown-heading">&nbsp;</div>
-                    <div className="dropdown-subheading hov">Drone Assembly</div>
-                    <div className="dropdown-subheading hov">Testing and Calibration</div>
+                    <div className="dropdown-subheading hov"><NavLink to='/droneassembly' className="dropdown-subheading hov">Drone Assembly</NavLink></div>
+                    <div className="dropdown-subheading hov"><NavLink to='/Testingandcalibrationpage' className="dropdown-subheading hov">Testing and Calibration</NavLink></div>
                 </div>
             </div>
         </>
