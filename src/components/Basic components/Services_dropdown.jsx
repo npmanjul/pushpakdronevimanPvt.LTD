@@ -1,5 +1,6 @@
 import React from "react";
 import './dropdown.css';
+import { NavLink } from "react-router-dom";
 
 const Services_dropdown = () => {
     return (
@@ -9,17 +10,22 @@ const Services_dropdown = () => {
                     <div className="dropdown-heading ">Drone Services</div>
                     <div className="dropdown-subheading hov">
                         <details>
-                            <summary>Agriculture Drone Application</summary>
+                        
+                            <summary><NavLink to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Agriculture Drone Application</NavLink></summary>
                             <ul type="none" className="dropdown-subpart">
-                                <li class="dropdown-subpart hov">Crop Spraying</li>
-                                <li class="dropdown-subpart hov">Seeds</li>
-                                <li class="dropdown-subpart hov">Fertilizers</li>
+                                <li class="dropdown-subpart hov"><NavLink to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Crop Spraying</NavLink></li>
+                                <li class="dropdown-subpart hov">
+                                <NavLink to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Seeds</NavLink></li>
+                                <li class="dropdown-subpart hov">
+                                <NavLink to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Fertilizers</NavLink></li>
                             </ul>
                         </details>
                     </div>
 
-                    <div className="dropdown-subheading hov">Mapping & Serveillance</div>
-                    <div className="dropdown-subheading hov">Aerial Photography & Videography</div>
+                    <div className="dropdown-subheading hov">
+                    <NavLink to='/mappingandservillancingpage' className="dropdown-subheading hov">Mapping & Serveillance</NavLink></div>
+                    <div className="dropdown-subheading hov">
+                    <NavLink to='/aerialphotographyandvideographypage' className="dropdown-subheading hov">Aerial Photography & Videography</NavLink></div>
                 </div>
                 <div className="dropdown-col">
                     <div className="dropdown-heading ">&nbsp;

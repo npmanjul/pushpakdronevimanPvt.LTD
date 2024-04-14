@@ -16,9 +16,9 @@ const pData=[
         point9:"Spraying 1 acre of land in 7-10 minutes.",
         point10:"Suitable for spraying on sugarcane and gardens like mango, apple, and banana.",
         point11:"Optimize the use of inputs (seeds, fertilizers, pesticide spraying) on the crop, leading to increased productivity through uniform distribution.",
-        img1:nullimg,
-        img2:nullimg,
-        img3:nullimg,
+        img1:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2FWhatsApp%20Image%202024-04-13%20at%2016.32.22_3ace9988.jpg?alt=media&token=935bfa31-0b43-4cb7-af81-4bbe96101131",
+        img2:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2FWhatsApp%20Image%202024-04-13%20at%2016.37.19_d6be0975.jpg?alt=media&token=4265d83c-e7b9-44f4-9f97-cebf8e0ffafb",
+        img3:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2FWhatsApp%20Image%202024-04-13%20at%2016.49.07_9d3778a6.jpg?alt=media&token=e3e2753b-fcdb-4d62-ab12-153b3d564ac2",
         img4:nullimg,
     },
     {

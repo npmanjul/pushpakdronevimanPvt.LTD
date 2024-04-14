@@ -23,6 +23,10 @@ import Lithographicprinting from './components/SubPage/Product Page/Lithographic
 import Mappingandservillancing from './components/SubPage/Services/Mappingandservillancing';
 import Aerialphotographyandvideography from './components/SubPage/Services/Aerialphotographyandvideography ';
 import Droneassembly from './components/SubPage/Services/Droneassembly';
+import AgricultureDroneAppliction from './components/SubPage/Services/AgricultureDroneAppliction';
+import DroneTesting from './components/SubPage/Services/DroneTesting';
+import Testingandcalibration from './components/SubPage/Services/Testingandcalibration';
+import Dronerepairservice from './components/SubPage/Services/Dronerepairservice';
 
 
 const App = () => {
@@ -64,6 +68,12 @@ const App = () => {
                 <Route path='/mappingandservillancingpage' element={<Mappingandservillancing/>}/>
                 <Route path='/aerialphotographyandvideographypage' element={<Aerialphotographyandvideography/>}/>
                 <Route path='/droneassembly' element={<Droneassembly/>}/>
+                <Route path='/AgricultureDroneAppliction' element={<AgricultureDroneAppliction/>}/>
+                <Route path='/Dronetesting' element={<DroneTesting/>}/>
+                <Route path='/Dronerepairservicepage' element={<Dronerepairservice/>}/>
+                <Route path='/Testingandcalibrationpage' element={<Testingandcalibration/>}/>
+
+
                 <Route path='*' element={<Error/>}/>
             </Routes>
           </BrowserRouter>

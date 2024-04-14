@@ -5,7 +5,7 @@ const nulltext="null text"
 const sdata=[
     {
         title: "Agriculture Drone Applications",
-        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2FWhatsApp%20Image%202023-11-07%20at%2011.19.14_ef5a9957.jpg?alt=media&token=580ffcb6-8341-4c3e-b415-824a54ecf0bd",
+        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2Fagiculture%20drone%203.jpg?alt=media&token=e5a6f238-89d1-418d-830a-13cbf576225c",
         contant: " By incorporating agriculture drones into Pushpak Drone, we aim to provide innovative solutions for modern farming, emphasizing precision farming, efficient pesticide and fertilizer application, as well as time and cost savings. Our commitment extends to promoting sustainability and empowering farmers and rural communities, enabling them to make data-driven decisions while fostering economic growth and environmental stewardship."
     },
     {

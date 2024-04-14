@@ -68,7 +68,7 @@ const ThreeDayWorkshopOnDrone = () => {
                             <Points Point={dwData[1].point29} />
                             <Sessionheading sessionheading={dwData[1].session10heading} />
                             
-                            <Advantagesheading />
+                            {/* <Advantagesheading /> */}
                             <AdvantagesImages images1={dwData[1].img1} imagetitle1={dwData[1].title1} images2={dwData[1].img2} imagetitle2={dwData[1].title2} images3={dwData[1].img3} imagetitle3={dwData[1].title3} images4={dwData[1].img4} imagetitle4={dwData[1].title4} />
                         </div>
 
