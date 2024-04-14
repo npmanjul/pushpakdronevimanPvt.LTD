@@ -5,7 +5,7 @@ const nullimg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBNj2PAp5
 const cdata = [
 
     {
-        imgsrc: "https://media.licdn.com/dms/image/D4D03AQFMLOwxmOxxcw/profile-displayphoto-shrink_800_800/0/1703083566479?e=1718236800&v=beta&t=axvICDk7Mkbm23StnQCucIbyormvUYglW92N_XqoCQY",
+        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2Fvivek.jpeg?alt=media&token=fb90f03a-6a52-4d38-ab29-a970954d965e",
         name: "Vivek Shukla",
         domin: "Design/3D Printing",
         email: "vivekshukla3719@gmail.com",
@@ -33,7 +33,7 @@ const cdata = [
         linkedIn: "https://www.linkedin.com/in/ankitkumar5gc/"
     },
     {
-        imgsrc: "https://media.licdn.com/dms/image/D4D03AQHGf0ugBT5pbQ/profile-displayphoto-shrink_400_400/0/1672688260749?e=1718236800&v=beta&t=z5diVs2vBjfFALC9h5443LAlbsF-ksWvSgzyl_a665k",
+        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2Fakash.jpeg?alt=media&token=9e76a208-155c-4379-b3fa-7dda653609ff",
         name: "Akash Singh",
         domin: "Drone/IoT",
         email: "akashsingh1582003@gmail.com",

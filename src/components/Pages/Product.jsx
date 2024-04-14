@@ -15,7 +15,7 @@ const Product = () => {
                 <Containerleft img={pdata[0].imgsrc} headingtitle={pdata[0].title} textcontent={pdata[0].contant}  knowMore={'/agriculturepage'}/>
                 <ContainerRight img={pdata[1].imgsrc} headingtitle={pdata[1].title} textcontent={pdata[1].contant} knowMore={'/videographydronepage'}/>
                 <Containerleft img={pdata[2].imgsrc} headingtitle={pdata[2].title} textcontent={pdata[2].contant} knowMore={'/mappingdronepage'}/>
-                <ContainerRight img={pdata[3].imgsrc} headingtitle={pdata[3].title} textcontent={pdata[3].contant}/>
+                <ContainerRight img={pdata[3].imgsrc} headingtitle={pdata[3].title} textcontent={pdata[3].contant} knowMore={'/DroneKitspage'}/>
                 <Heading heading={"3d printing"} />
                 <Containerleft img={pdata[4].imgsrc} headingtitle={pdata[4].title} textcontent={pdata[4].contant} knowMore={'/customisedobjectpage'}/>
                 <ContainerRight img={pdata[5].imgsrc} headingtitle={pdata[5].title} textcontent={pdata[5].contant} knowMore={'/lithographyprintingpage'} />

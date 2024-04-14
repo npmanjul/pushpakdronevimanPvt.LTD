@@ -25,27 +25,27 @@ const Footer = () => {
                   <div  className='footer-col-subgroup'>
                         <div className='footer-col footer-col-1'>
                             <div className='footer-heading'>Workshops</div>
-                            <div className='footer-text'>Workshop on Drone</div>
-                            <div className='footer-text'>Workshop on Design</div>
-                            <div className='footer-text'>Workshop on IoT</div>
+                            <div className='footer-text'><Link to='/training' className="dropdown-subheading hov">Workshop on Drone</Link></div>
+                            <div className='footer-text'><Link to='/training' className="dropdown-subheading hov">Workshop on Design</Link></div>
+                            <div className='footer-text'><Link to='/comingsoonpage' className="dropdown-subheading hov">Workshop on IoT</Link></div>
                         </div>
 
                         <div className='footer-col footer-col-2'>
                             <div className='footer-heading'>Services</div>
-                            <div className='footer-text'>Agriculture Drone</div>
-                            <div className='footer-text'>Drone Testing</div>
-                            <div className='footer-text'>Drone Repair Services</div>
-                            <div className='footer-text'>Testing & Calibration</div>
+                            <div className='footer-text'><Link to='/AgricultureDroneAppliction' className="dropdown-subheading hov">Agriculture Drone</Link></div>
+                            <div className='footer-text'><Link to='/Dronetesting' className="dropdown-subheading hov">Drone Testing</Link></div>
+                            <div className='footer-text'><Link to='/Dronerepairservicepage' className="dropdown-subheading hov">Drone Repair Services</Link></div>
+                            <div className='footer-text'><Link to='/Testingandcalibrationpage' className="dropdown-subheading hov">Testing & Calibration</Link></div>
                         </div>
                     </div>
 
                     <div className='footer-col-subgroup'>
                         <div className='footer-col footer-col-3'>
                             <div className='footer-heading'>Products</div>
-                            <div className='footer-text'>Agriculture Drone</div>
-                            <div className='footer-text'>Mapping Drone</div>
-                            <div className='footer-text'>3D Printed Objects</div>
-                            <div className='footer-text'>Iot based Kits</div>
+                            <div className='footer-text'><Link to='/agriculturepage' className="dropdown-subheading hov">Agriculture Drone</Link></div>
+                            <div className='footer-text'><Link to='/mappingdronepage' className="dropdown-subheading hov">Mapping Drone</Link></div>
+                            <div className='footer-text'><Link to='/PrintedObjectpage' className="dropdown-subheading hov">3D Printed Objects</Link></div>
+                            <div className='footer-text'><Link to='/comingsoonpage' className="dropdown-subheading hov">Iot based Kits</Link></div>
                             {/* <div className='footer-text'>Microcontroller</div> */}
                         </div>
 

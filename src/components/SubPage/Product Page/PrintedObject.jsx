@@ -5,10 +5,10 @@ import Heading from '../../Basic components/Heading';
 import ShoppingCards from '../components/ShoppingCards';
 import shopdata from '../subpage data/Product Data/Shoppingdata';
 
-const CustomisedObject = () => {
+const PrintedObject = () => {
   return (
     <>
-      <Blank />
+         <Blank />
       <Heading heading={"Customised Object"} />
       {shopdata.map(function (data) {
         return (
@@ -21,4 +21,4 @@ const CustomisedObject = () => {
   )
 }
 
-export default CustomisedObject;
+export default PrintedObject

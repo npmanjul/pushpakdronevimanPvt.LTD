@@ -27,6 +27,9 @@ import AgricultureDroneAppliction from './components/SubPage/Services/Agricultur
 import DroneTesting from './components/SubPage/Services/DroneTesting';
 import Testingandcalibration from './components/SubPage/Services/Testingandcalibration';
 import Dronerepairservice from './components/SubPage/Services/Dronerepairservice';
+import DroneKits from './components/SubPage/Product Page/DroneKits';
+import PrintedObject from './components/SubPage/Product Page/PrintedObject';
+import EductionalTool from './components/SubPage/Product Page/EductionalTool';
 
 
 const App = () => {
@@ -72,6 +75,10 @@ const App = () => {
                 <Route path='/Dronetesting' element={<DroneTesting/>}/>
                 <Route path='/Dronerepairservicepage' element={<Dronerepairservice/>}/>
                 <Route path='/Testingandcalibrationpage' element={<Testingandcalibration/>}/>
+                <Route path='/DroneKitspage' element={<DroneKits/>}/>
+                <Route path='/PrintedObjectpage' element={<PrintedObject/>}/>
+                <Route path='/EductionalToolpage' element={<EductionalTool/>}/>
+                
 
 
                 <Route path='*' element={<Error/>}/>
