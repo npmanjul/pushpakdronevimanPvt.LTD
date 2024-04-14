@@ -108,7 +108,7 @@ const OneMonthWorkshopOnDesign = () => {
                             <Points Point={dwData[4].point51} />
                             <Points Point={dwData[4].point52} />
                    
-                            <Advantagesheading />
+                            {/* <Advantagesheading /> */}
                             <AdvantagesImages images1={dwData[4].img1} imagetitle1={dwData[4].title1}  images2={dwData[4].img2} imagetitle2={dwData[4].title2} images3={dwData[4].img3} imagetitle3={dwData[4].title3} images4={dwData[4].img4} imagetitle4={dwData[4].title4}  />
                         </div>
 

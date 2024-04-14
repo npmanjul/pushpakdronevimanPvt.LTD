@@ -2,20 +2,29 @@ import React from 'react';
 import './shoppingcards.css';
 import buynow from '../../Basic components/icon/buy-on-amazon-droni-drone.png'
 
-const ShoppingCards = () => {
+const ShoppingCards = (props) => {
     return (
         <>
+
             <div className='shopping-card-container'>
                 <div className='shopping-image-container'>
-                    <img src='https://img.freepik.com/free-photo/quadcopter-flying-nature_231208-10459.jpg' alt='img' />
+                    <img src={props.imgsrc} alt='img' />
                 </div>
                 <div className='shopping-product-heading'>
-                    Heading
+                    {props.title}
                 </div>
-                <div className='shopping-buynow-button'>
-                    <img src={buynow} alt='button' />
+                <div className='shopping-box-btn-price'>
+                    <div className='shopping-buynow-button'>
+
+                        <a href={props.amazonproduct}><img src={buynow} alt='button' /></a>
+                    </div>
+                    <div className='shopping-price-box'>
+                        {props.price}
+                    </div>
+
                 </div>
             </div>
+
         </>
     )
 }
