@@ -20,7 +20,7 @@ const tdata = [
     },
     {
         title: "2 Weeks Workshop",
-        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2FDesign%20workshop%2F2%20week%20workshop%2Fpush%20image%202-11.jpg?alt=media&token=d52e056c-cfae-43e6-8c06-dcddc07d3fec",
+        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2FDesign%20workshop%2F2%20week%20workshop%2FScreenshot%202024-04-14%20174808.png?alt=media&token=65d6dc16-ad7f-433d-b9e3-ba867dca4610",
         contant: "Explore the history, applications, and technology of 3D printing, learn beginner-friendly design tools, and gain hands- on experience in slicing software.In the design segment, journey from Fusion 360 basics to hands - on exercises, simulations, and CAM fundamentals, culminating in a showcase of participants' projects. Join us for an immersive exploration of design and 3D printing innovations." 
     },
     {

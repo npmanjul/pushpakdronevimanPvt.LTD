@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import './form.css';
 
 
-
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwHVBKwahGjQOPbUWiZUlx6Ekqp1rKIQqzQ18Qm0EAJ3bjyll3wPmlZPihSvBE91umZ/exec';
 
 const Form = () => {
