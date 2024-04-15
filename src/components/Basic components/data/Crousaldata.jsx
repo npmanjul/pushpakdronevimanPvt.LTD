@@ -56,18 +56,18 @@ const cdata = [
     },
   
     {
-        imgsrc: nullimg,
+        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2Fprofile-pic%20(1).png?alt=media&token=f4369757-535a-4946-8f54-4647c798a7ad",
         name: "Priyanshu Mishra",
         domin: "Sales & Marketing",
-        email: "",
-        linkedIn: ""
+        email: "prynshu09@gmail.com",
+        linkedIn: "https://www.linkedin.com/in/priyanshu-mishra-a1856a24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
-        imgsrc: nullimg,
+        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2FWhatsApp%20Image%202024-04-14%20at%2018.15.23_f27be10a.jpg?alt=media&token=90cd0645-cd18-403d-a0a3-b1f77275e980",
         name: "Samarth Mishra",
         domin: "Sales & Marketing",
-        email: "",
-        linkedIn: ""
+        email: "prynshu09@gmail.com",
+        linkedIn: "https://www.linkedin.com/in/samarth-mishra-17a58224a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
   
 ]
