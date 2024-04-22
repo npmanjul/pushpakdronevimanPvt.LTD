@@ -23,7 +23,7 @@ const Testingandcalibration = () => {
                             <Sessionheading sessionheading={sData[6].topicheading1} />
 
 
-                            <Advantagesheading />
+                            {/* <Advantagesheading /> */}
                             <AdvantagesImages images1={sData[6].img1} images2={sData[6].img2} images3={sData[6].img3} images4={sData[6].img4} />
 
 

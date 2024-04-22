@@ -3,6 +3,17 @@ import './container.css';
 import { Link } from 'react-router-dom';
 
 const Container = (props) => {
+    function openWhatsApp() {
+        // Specify the phone number and message (optional)
+        var phoneNumber = '917523801921'; // Replace with your desired phone number
+        var message = 'Hello Are your like this ? Know More about it..  '; // Replace with your desired message
+  
+        // Construct the WhatsApp URL
+        var whatsappUrl = 'whatsapp://send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
+  
+        // Open the WhatsApp URL
+        window.location.href = whatsappUrl;
+      }
     return (
         <>
             <div className='main-container main-container-right'>
@@ -22,7 +33,7 @@ const Container = (props) => {
                         <Link to={props.knowMore}><button>Know More..</button></Link>
                         </div>
                         <div className='btn btn2'>
-                        <button>Enquiry</button>
+                        <button onClick={openWhatsApp}>Enquiry</button>
                         </div>
                     </div>
 

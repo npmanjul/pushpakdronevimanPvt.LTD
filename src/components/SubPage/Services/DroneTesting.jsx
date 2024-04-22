@@ -23,7 +23,7 @@ const DroneTesting = () => {
                             <Sessionheading sessionheading={sData[4].topicheading1} />
 
 
-                            <Advantagesheading />
+                            {/* <Advantagesheading /> */}
                             <AdvantagesImages images1={sData[4].img1} images2={sData[4].img2} images3={sData[4].img3} images4={sData[4].img4} />
 
 

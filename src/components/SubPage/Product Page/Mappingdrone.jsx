@@ -36,7 +36,7 @@ const Mappingdrone = () => {
 
 
 
-                            <Advantagesheading />
+                            {/* <Advantagesheading /> */}
                             <AdvantagesImages images1={pData[2].img1} images2={pData[2].img2} images3={pData[2].img3} images4={pData[2].img4} />
 
 

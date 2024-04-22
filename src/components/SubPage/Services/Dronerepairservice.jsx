@@ -23,7 +23,7 @@ const Dronerepairservice = () => {
                             <Sessionheading sessionheading={sData[5].topicheading1} />
 
 
-                            <Advantagesheading />
+                            {/* <Advantagesheading /> */}
                             <AdvantagesImages images1={sData[5].img1} images2={sData[5].img2} images3={sData[5].img3} images4={sData[5].img4} />
 
 

@@ -10,21 +10,21 @@ const sdata=[
     },
     {
         title: "Mapping & Surveillance",
-        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2Fmapping%26%20servillancing.jpg?alt=media&token=af748ad6-1006-43c9-923f-08405272129a",
+        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2FSlide2.JPG?alt=media&token=b12eb149-2e6f-4d60-87d9-d2817236ad54",
         contant:"Mapping involves representing spatial information like forests, roads, railway tracks, and water bodies. Historically, ground measurements were used, but now aircraft like planes and helicopters, equipped with diverse sensors, including temperature, capture data. However, aircraft operations are costly and require skilled operators. Mapping drones offer a cost-effective and user-friendly alternative. They autonomously capture high-quality images, ensuring efficient data collection."
     },
     {
         title: "Aerial Photography & Videography",
-        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2FIMG-20231124-WA0003.jpg?alt=media&token=bde3fd54-c18d-495d-98d5-1410af824472",
+        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2FSlide6.JPG?alt=media&token=d9c4b0ab-a147-4a10-a87b-c1ed65a88536",
         contant:"Pushpak Drone Viman is equipped with state-of-the-art aerial photography and videography capabilities. Our drones feature high-resolution cameras with advanced stabilization technology to capture stunning images and videos from various angles and altitudes. With precise GPS navigation systems and intelligent flight controls, our drones ensure smooth and stable operation even in challenging environments."
     },
     {
         title: "Drone Assembly",
-        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2FDrone%20Assembly.jpg?alt=media&token=f5020b0d-8071-49f8-b74f-2a9c3599bbc4",
+        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2FSlide10.JPG?alt=media&token=a7a58313-9b64-485a-9b67-de51e920d90e",
         contant: "At Pushpak Drone Viman, we specialize in meticulously assembling drones tailored to specific needs. Each drone undergoes a detailed process where we select frames, motors, ESCs, and flight controllers optimized for stable flying and advanced features like stabilization and GPS navigation. We ensure precision integration of components such as propellers, batteries, and radio systems, along with high-quality Power Distribution Boards for steady power distribution."
     },
     {
-        title: "Drone Testing",
+        title: "Drone Repairing & Testing",
         imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%2Fdrone%20testing.jpg?alt=media&token=775adfef-1a0a-4c49-a641-b35785b39ec6",
         contant: "At Pushpak Drone Viman, we test every part of our drones really well to make sure they're exactly what our clients want. We pick frames that are great for flying smoothly, and we choose motors, ESCs, and flight controllers that work together perfectly. Our aim is to give our clients drones that work amazingly well and even better than they expected. We make sure of this by testing everything carefully before we deliver them."
     },

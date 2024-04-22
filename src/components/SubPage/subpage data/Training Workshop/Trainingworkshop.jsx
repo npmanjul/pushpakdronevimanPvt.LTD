@@ -44,7 +44,7 @@ const dwData = [
         title4: "text ?",
     },
     {
-        imgloc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2F1%20week%20workshop%2Fpush%20image%202-5.jpg?alt=media&token=bee2fa3e-063a-407b-93da-1910a4a3acf2",
+        imgloc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2FDronedayimg.jpg?alt=media&token=d7a89b2b-4b17-4dab-ada1-c5f672824d84",
 
         heading: "1-Week Workshop on Drone",
 
@@ -117,9 +117,9 @@ const dwData = [
         session10heading: "Session 2: Closing Ceremony, Certificates, and Feedback Collection",
 
         img1: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2FPush%20image1-8.jpg?alt=media&token=22132e73-9d65-4256-af40-23c21efb4582",
-        img2: nullimg,
+        img2: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2FPicture5.jpg?alt=media&token=47d448d9-7f3c-4144-a055-3a1d5e71996c",
         img3: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2FPicture4.jpg?alt=media&token=a7eb49de-69bf-4a86-9117-a14f28c02746",
-        img4: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Training%20sub%20page%2Fdrone%20workshop%2FPicture5.jpg?alt=media&token=47d448d9-7f3c-4144-a055-3a1d5e71996c",
+        img4: nullimg,
         title1: "text ?",
         title2: "text ?",
         title3: "text ?",

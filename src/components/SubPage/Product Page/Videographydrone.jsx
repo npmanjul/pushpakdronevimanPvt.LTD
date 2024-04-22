@@ -28,7 +28,7 @@ const Videographydrone = () => {
                             <Points Point={pData[1].point3} />
                             <Points Point={pData[1].point4} />
                             
-                            <Advantagesheading />
+                            {/* <Advantagesheading /> */}
                             <AdvantagesImages images1={pData[1].img1}  images2={pData[1].img2} images3={pData[1].img3} images4={pData[1].img4}   />
 
 

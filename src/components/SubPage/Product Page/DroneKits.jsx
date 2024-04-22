@@ -20,7 +20,7 @@ const DroneKits = () => {
                         <Subpageheading topheading={pData[3].heading} />
                         <div className='subpage-content'>
 
-                            <Advantagesheading />
+                            {/* <Advantagesheading /> */}
                             <AdvantagesImages images1={pData[3].img1} images2={pData[3].img2} images3={pData[3].img3} images4={pData[3].img4} />
 
 
