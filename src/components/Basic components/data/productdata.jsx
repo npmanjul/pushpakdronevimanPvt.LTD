@@ -16,12 +16,12 @@ const pdata=[
 //     },
     {
             title: "Videography Drone",
-            imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2Fmapping%26%20servillancing.jpg?alt=media&token=71cbde70-ea97-43ca-ab41-1737b2206c5b",
+            imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2FSlide20.JPG?alt=media&token=0bab167d-711d-4553-95a4-3196d22aa588",
             contant:"Pushpak Drone Viman is equipped with state-of-the-art aerial photography and videography capabilities. Our drones feature high-resolution cameras with advanced stabilization technology to capture stunning images and videos from various angles and altitudes. With precise GPS navigation systems and intelligent flight controls, our drones ensure smooth and stable operation even in challenging environments 1).Wedding Photography/Videography  2).Construction and Surveying"
     },
     {
             title: "Mapping Drone",
-            imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2Fmapping%20drone.jpg?alt=media&token=19c57232-8f5a-475e-96f6-479924b38039",
+            imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2FSlide24.JPG?alt=media&token=67b2c71d-c566-46a9-8117-6a7c1a53d2e7",
             contant:"  Mapping drones navigate the skies with precision, utilizing advanced technology to create detailed and accurate maps. Equipped with specialized sensors, they survey landscapes, monitor terrain changes, and contribute to urban planning and environmental management. These unmanned aerial vehicles revolutionize mapping processes, providing efficient and high-resolution data for various industries. 1. Precision Mapping  2. Landscape Survey  3. Urban Planning"
     },
     {

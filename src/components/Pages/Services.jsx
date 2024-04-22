@@ -17,8 +17,8 @@ const Services = () => {
                 <Containerleft img={sdata[2].imgsrc} headingtitle={sdata[2].title} textcontent={sdata[2].contant}  knowMore={'/aerialphotographyandvideographypage'}/>
                 <ContainerRight img={sdata[3].imgsrc} headingtitle={sdata[3].title} textcontent={sdata[3].contant} knowMore={'/droneassembly'}/>
                 <Containerleft img={sdata[4].imgsrc} headingtitle={sdata[4].title} textcontent={sdata[4].contant} knowMore={'/Dronetesting'}/>
-                <ContainerRight img={sdata[5].imgsrc} headingtitle={sdata[5].title} textcontent={sdata[5].contant} knowMore={'/Dronerepairservicepage'}/>
-                <Containerleft img={sdata[6].imgsrc} headingtitle={sdata[6].title} textcontent={sdata[6].contant} knowMore={'/Testingandcalibrationpage'}/>  
+                {/* <ContainerRight img={sdata[5].imgsrc} headingtitle={sdata[5].title} textcontent={sdata[5].contant} knowMore={'/Dronerepairservicepage'}/> */}
+                <ContainerRight img={sdata[6].imgsrc} headingtitle={sdata[6].title} textcontent={sdata[6].contant} knowMore={'/Testingandcalibrationpage'}/>  
                 <Footer />
             </div>
             

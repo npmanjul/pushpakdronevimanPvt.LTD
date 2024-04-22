@@ -23,7 +23,7 @@ const Droneassembly = () => {
                         <Sessionheading  sessionheading={sData[0].topicheading1} />
                          
 
-                            <Advantagesheading />
+                            {/* <Advantagesheading /> */}
                             <AdvantagesImages images1={sData[3].img1} images2={sData[3].img2} images3={sData[3].img3} images4={sData[3].img4} />
 
 

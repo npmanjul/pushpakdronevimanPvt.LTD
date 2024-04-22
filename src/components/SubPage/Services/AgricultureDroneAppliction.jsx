@@ -43,7 +43,7 @@ const AgricultureDroneAppliction = () => {
                             <Points Point={sData[0].point10} />
                             <Points Point={sData[0].point11} />
 
-                            <Advantagesheading />
+                            {/* <Advantagesheading /> */}
                             <AdvantagesImages images1={sData[0].img1} images2={sData[0].img2} images3={sData[0].img3} images4={sData[0].img4} />
 
 

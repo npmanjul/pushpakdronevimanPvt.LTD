@@ -23,7 +23,7 @@ const Mappingandservillancing = () => {
 
                             <Paragraph paratext="Surveying, on the other hand, involves thoroughly examining an area to define its boundaries, characteristics, and potential. It includes methods like observation, measurement, research, and mapping. Surveys are commonly done to understand infrastructure, aid in urban development, inspect rail tracks, check solar panels, and support mining activities." />
 
-                            <Advantagesheading />
+                            {/* <Advantagesheading /> */}
                             <AdvantagesImages images1={sData[1].img1} images2={sData[1].img2} images3={sData[1].img3} images4={sData[1].img4} />
 
 

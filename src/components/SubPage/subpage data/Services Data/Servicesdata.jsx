@@ -1,9 +1,10 @@
 const nullimg = "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/temporary-image.png?alt=media&token=9a903ec7-2bc8-4d62-8a3b-2db8b1c1082a";
 
 
+
 const sData=[
     {
-        imgloc: "https://static.vecteezy.com/system/resources/previews/005/992/359/non_2x/smart-farming-use-drone-technologies-in-farm-industry-for-plants-growing-wind-mills-solar-panels-and-water-in-flat-cartoon-background-illustration-vector.jpg",
+        imgloc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FAgricultuer%20Drone%20Appliction%2FPush%20image1-3.jpg?alt=media&token=16a0c990-c540-42c4-87e8-1b99b070dd50",
         heading: "Agriculture Drone Applications",
         point1:"Precision Drones",
         point2:"Reliable Solutions",
@@ -23,34 +24,33 @@ const sData=[
     },
     {
         heading:"Mapping & Servillance",
-        imgloc:nullimg,
-        img1:nullimg,
-        img2:nullimg,
+        imgloc:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2Fmapping%20%26%20servillancing%2FSlide2.JPG?alt=media&token=d4db2424-1c98-42a7-a9bd-acd89307846a",
+        img1:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2Fmapping%20%26%20servillancing%2FSlide3.JPG?alt=media&token=bce8d2a6-1f40-423d-93ac-ac7cf488f999",
+        img2:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2Fmapping%20%26%20servillancing%2FSlide4.JPG?alt=media&token=d87ac3d6-5547-416f-a9df-c47232ada6db",
         img3:nullimg,
         img4:nullimg,	 
     },
     {
         heading:"Aerial Photography & Videography",
-        imgloc:nullimg,
-        img1:nullimg,
-        img2:nullimg,
+        imgloc:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FAerial%20photography%20and%20video%2FSlide6.JPG?alt=media&token=6cb049f0-f52d-4ab0-a3d1-5e747ded7cc7",
+        img1:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FAerial%20photography%20and%20video%2FSlide7.JPG?alt=media&token=4dc74c47-1be4-42d9-a1f2-91897dd691d2",
+        img2:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FAerial%20photography%20and%20video%2FSlide8.JPG?alt=media&token=bc883698-29c4-4aa8-95f9-7da87a6c21c3",
         img3:nullimg,
         img4:nullimg,	 
     },
     {
         heading:"Drone Assembly",
-        imgloc:nullimg,
-        topicheading1:"Gather Components:",
-        img1:nullimg,
-        img2:nullimg,
+        imgloc:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FDrone%20assembly%2FSlide10.JPG?alt=media&token=7bcef7f2-5ba3-4a6a-b76c-f62a9cb0a0c9",
+        img1:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FDrone%20assembly%2FSlide11.JPG?alt=media&token=3a616809-78a4-401b-aebe-668b8201fd6f",
+        img2:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FDrone%20assembly%2FSlide12.JPG?alt=media&token=389db0d1-fd37-49c3-b9cd-85f1e355f6a7",
         img3:nullimg,
         img4:nullimg,	 
     },
     {
-        heading:"Drone Testing",
-        imgloc:nullimg,
-        img1:nullimg,
-        img2:nullimg,
+        heading:"Drone Repairing & Testing",
+        imgloc:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FDrone%20repairing%20and%20Testing%2FSlide14.JPG?alt=media&token=c5620ec4-4897-4138-b10f-4799c8ee8f90",
+        img1:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FDrone%20repairing%20and%20Testing%2FSlide15.JPG?alt=media&token=f1c8e427-2a07-4dfc-889b-71b5e7d041ac",
+        img2:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FDrone%20repairing%20and%20Testing%2FSlide14.JPG?alt=media&token=c5620ec4-4897-4138-b10f-4799c8ee8f90",
         img3:nullimg,
         img4:nullimg,	 
     },
@@ -64,9 +64,9 @@ const sData=[
     },
     {
         heading:"Testing and Calibration",
-        imgloc:nullimg,
-        img1:nullimg,
-        img2:nullimg,
+        imgloc:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FTesting%20and%20calibration%2FSlide17.JPG?alt=media&token=f10b53ae-8793-4012-b231-2da7b80f5ddc",
+        img1:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FTesting%20and%20calibration%2FSlide18.JPG?alt=media&token=84f7417c-7382-4b90-994a-41b5fa44eda6",
+        img2:"https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Services%20sub%20pages%2FTesting%20and%20calibration%2FSlide17.JPG?alt=media&token=f10b53ae-8793-4012-b231-2da7b80f5ddc",
         img3:nullimg,
         img4:nullimg,	 
     },
