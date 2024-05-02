@@ -8,6 +8,7 @@ import Paragraph from '../components/Paragraph';
 import AdvantagesImages from '../components/AdvantagesImages';
 import Advantagesheading from '../components/Advantagesheading';
 import Footer from '../../Basic components/Footer';
+import Twophotes from '../components/Twophotes';
 
 const Mappingandservillancing = () => {
   return (
@@ -24,7 +25,7 @@ const Mappingandservillancing = () => {
                             <Paragraph paratext="Freelance photographers and videographers can expand their service offerings by incorporating aerial imagery into their portfolios, attracting new clients, and increasing revenue streams. Entrepreneurs have the opportunity to establish drone photography and videography businesses, offering comprehensive aerial solutions to industries such as real estate, tourism, and advertising. Additionally, organizations can leverage our services for marketing campaigns, promotional events, and special projects, enhancing brand visibility and engagement. two lines." />
                             
                             {/* <Advantagesheading /> */}
-                            <AdvantagesImages images1={sData[2].img1}  images2={sData[2].img2} images3={sData[2].img3} images4={sData[2].img4}   />
+                            <Twophotes images1={sData[2].img1}  images2={sData[2].img2} images3={sData[2].img3} images4={sData[2].img4}   />
 
 
                         </div>

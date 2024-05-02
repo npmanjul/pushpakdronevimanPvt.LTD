@@ -8,6 +8,7 @@ import Paragraph from '../components/Paragraph';
 import AdvantagesImages from '../components/AdvantagesImages';
 import Advantagesheading from '../components/Advantagesheading';
 import Footer from '../../Basic components/Footer';
+import Twophotes from '../components/Twophotes';
 
 const Mappingandservillancing = () => {
     return (
@@ -24,7 +25,7 @@ const Mappingandservillancing = () => {
                             <Paragraph paratext="Surveying, on the other hand, involves thoroughly examining an area to define its boundaries, characteristics, and potential. It includes methods like observation, measurement, research, and mapping. Surveys are commonly done to understand infrastructure, aid in urban development, inspect rail tracks, check solar panels, and support mining activities." />
 
                             {/* <Advantagesheading /> */}
-                            <AdvantagesImages images1={sData[1].img1} images2={sData[1].img2} images3={sData[1].img3} images4={sData[1].img4} />
+                            <Twophotes images1={sData[1].img1} images2={sData[1].img2} />
 
 
                         </div>

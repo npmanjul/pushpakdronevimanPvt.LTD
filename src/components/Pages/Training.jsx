@@ -13,7 +13,7 @@ const Training = () => {
            <div className='container'>
                 <Blankspace />
                 <Heading heading={"Drone"} />
-                <Containerleft img={tdata[0].imgsrc} headingtitle={tdata[0].title} textcontent={tdata[0].contant} knowMore={'/threedayworkshopondrone'}/>
+                <Containerleft img={tdata[0].imgsrc} headingtitle={tdata[0].title} textcontent={tdata[0].contant} custom_msg={'are you like this training'}  knowMore={'/threedayworkshopondrone'}/>
                 <ContainerRight img={tdata[1].imgsrc} headingtitle={tdata[1].title} textcontent={tdata[1].contant} knowMore={'/oneweekworkshopondrone'}/>
                 <Heading heading={"Design & 3D Printing"} />
                 <Containerleft img={tdata[2].imgsrc} headingtitle={tdata[2].title} textcontent={tdata[2].contant} knowMore={'/oneweekworkshopondesign'}/>

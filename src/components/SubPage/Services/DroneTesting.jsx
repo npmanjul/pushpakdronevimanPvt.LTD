@@ -8,6 +8,7 @@ import Subpageheading from '../components/Subpageheading';
 import AdvantagesImages from '../components/AdvantagesImages';
 import Advantagesheading from '../components/Advantagesheading';
 import Footer from '../../Basic components/Footer';
+import Twophotes from '../components/Twophotes';
 
 const DroneTesting = () => {
     return (
@@ -24,7 +25,7 @@ const DroneTesting = () => {
 
 
                             {/* <Advantagesheading /> */}
-                            <AdvantagesImages images1={sData[4].img1} images2={sData[4].img2} images3={sData[4].img3} images4={sData[4].img4} />
+                            <Twophotes images1={sData[4].img1} images2={sData[4].img2} images3={sData[4].img3} images4={sData[4].img4} />
 
 
                         </div>

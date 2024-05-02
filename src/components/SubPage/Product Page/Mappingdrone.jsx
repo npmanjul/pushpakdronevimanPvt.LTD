@@ -10,6 +10,7 @@ import Heading from '../components/Heading';
 import AdvantagesImages from '../components/AdvantagesImages';
 import Advantagesheading from '../components/Advantagesheading';
 import Footer from '../../Basic components/Footer';
+import Twophotes from '../components/Twophotes';
 
 const Mappingdrone = () => {
   return (
@@ -37,7 +38,7 @@ const Mappingdrone = () => {
 
 
                             {/* <Advantagesheading /> */}
-                            <AdvantagesImages images1={pData[2].img1} images2={pData[2].img2} images3={pData[2].img3} images4={pData[2].img4} />
+                            <Twophotes images1={pData[2].img1} images2={pData[2].img2} images3={pData[2].img3} images4={pData[2].img4} />
 
 
                         </div>

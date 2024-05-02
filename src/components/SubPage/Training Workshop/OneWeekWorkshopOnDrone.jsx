@@ -10,6 +10,7 @@ import Sessionheading from '../components/Sessionheading';
 import Points from '../components/Points';
 import Advantagesheading from '../components/Advantagesheading';
 import AdvantagesImages from '../components/AdvantagesImages';
+import Threephotes from '../components/Threephotes';
 
 const ThreeDayWorkshopOnDrone = () => {
     return (
@@ -69,7 +70,7 @@ const ThreeDayWorkshopOnDrone = () => {
                             <Sessionheading sessionheading={dwData[1].session10heading} />
                             
                             {/* <Advantagesheading /> */}
-                            <AdvantagesImages images1={dwData[1].img1} imagetitle1={dwData[1].title1} images2={dwData[1].img2} imagetitle2={dwData[1].title2} images3={dwData[1].img3} imagetitle3={dwData[1].title3} />
+                            <Threephotes images1={dwData[1].img1} imagetitle1={dwData[1].title1} images2={dwData[1].img2} imagetitle2={dwData[1].title2} images3={dwData[1].img3} imagetitle3={dwData[1].title3} />
                         </div>
 
 
