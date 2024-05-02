@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './container.css';
 import { Link } from 'react-router-dom';
 
 
 const Container = (props) => {
 
-    function openWhatsApp() {
-        // Specify the phone number and message (optional)
-        var phoneNumber = '917523801921'; // Replace with your desired phone number
+    // const [whatsappmsg ,setwhatsappmsg]=useState("");
+    // setwhatsappmsg=props.custom_msg;
+
+    function openWhatsApp(cust_msg) {
+        
+        var phoneNumber = '917523801921'; 
         var message = 'Hello are your like this drone? Know More about it..  '; // Replace with your desired message
+
+        // var message =cust_msg;
   
         // Construct the WhatsApp URL
         var whatsappUrl = 'whatsapp://send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
@@ -46,4 +51,4 @@ const Container = (props) => {
     )
 }
 
-export default Container
+export default Container;

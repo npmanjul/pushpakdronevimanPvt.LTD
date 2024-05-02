@@ -10,6 +10,7 @@ import Advantagesheading from '../components/Advantagesheading';
 import AdvantagesImages from '../components/AdvantagesImages';
 import Blankspace from '../../Basic components/Blankspace';
 import pData from '../subpage data/Product Data/Productdata';
+import Twophotes from '../components/Twophotes';
 
 const Videographydrone = () => {
   return (
@@ -29,7 +30,7 @@ const Videographydrone = () => {
                             <Points Point={pData[1].point4} />
                             
                             {/* <Advantagesheading /> */}
-                            <AdvantagesImages images1={pData[1].img1}  images2={pData[1].img2} images3={pData[1].img3} images4={pData[1].img4}   />
+                            <Twophotes images1={pData[1].img1}  images2={pData[1].img2} images3={pData[1].img3} images4={pData[1].img4}   />
 
 
                         </div>

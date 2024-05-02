@@ -10,6 +10,7 @@ import Heading from '../components/Heading';
 import AdvantagesImages from '../components/AdvantagesImages';
 import Advantagesheading from '../components/Advantagesheading';
 import Footer from '../../Basic components/Footer';
+import Threephotes from '../components/Threephotes';
 
 const Agriculturedrone = () => {
     return (
@@ -44,7 +45,7 @@ const Agriculturedrone = () => {
                             <Points Point={pData[0].point11} />
 
                             {/* <Advantagesheading /> */}
-                            <AdvantagesImages images1={pData[0].img1} images2={pData[0].img2} images3={pData[0].img3} images4={pData[0].img4} />
+                            <Threephotes images1={pData[0].img1} images2={pData[0].img2} images3={pData[0].img3} images4={pData[0].img4} />
 
 
                         </div>

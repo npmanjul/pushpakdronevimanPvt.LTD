@@ -14,24 +14,37 @@ const shopdata=[
         productprice:"1200/-",
         amazonproduct:"",
     },
+   
     {
         productimg:nullimg,
         productname:"Product Name",
         productprice:"1200/-",
         amazonproduct:"",
     },
+   
     {
         productimg:nullimg,
         productname:"Product Name",
         productprice:"1200/-",
         amazonproduct:"",
     },
+   
     {
         productimg:nullimg,
         productname:"Product Name",
         productprice:"1200/-",
         amazonproduct:"",
     },
+   
+    {
+        productimg:nullimg,
+        productname:"Product Name",
+        productprice:"1200/-",
+        amazonproduct:"",
+    },
+   
+
+   
    
 ]
 
