@@ -3,10 +3,11 @@ import './footer.css';
 import footerlogoImage from './img/footer logo.png'
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
 import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
+import LinkedIn from '../Basic components/icon/linkedin-fill.png'
 import { Link } from 'react-router-dom';
 
 
@@ -68,7 +69,7 @@ const Footer = () => {
                     <div className='socialmedialogos'>
                         <div className='circle'><YouTubeIcon /></div>
                         <div className='circle'><FacebookSharpIcon /></div>
-                        <div className='circle'><LinkedInIcon /></div>
+                        <a href='https://www.linkedin.com/company/pushpak-drone-viman/'><div className='circle'><img src={LinkedIn}/></div></a>
                         <div className='circle'><InstagramIcon /></div>
                         <div className='circle'><XIcon /></div>
                     </div>

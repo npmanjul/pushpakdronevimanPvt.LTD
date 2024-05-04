@@ -18,7 +18,7 @@ const Missiovisionboxs = () => {
                                 Vision
                             </div>
                             <div className='box-title'>
-                                Empowering the Future of Agriculture Through Innovative Drone Solutions
+                            To provide expert education and training in Design, 3D printing, IoT, and drone tech to Indian institutions, with a primary emphasis on drone design, maintenance, and manufacturing.
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ const Missiovisionboxs = () => {
                                 Mission
                             </div>
                             <div className='box-title'>
-                                To be a leading provider of comprehensive drone services, focusing on education, testing and repair, as well as the design and assembly of cost-effective agricultural drones.
+                            To be a leading provider of comprehensive education, training, and drone technology, with a primary focus on drone design, testing, repair, and cost-effective assembly.
                             </div>
                         </div>
                     </div>

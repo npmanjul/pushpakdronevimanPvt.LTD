@@ -145,6 +145,11 @@
     color: #137229;
 }
 
+.circle img
+{
+    height: 24px;
+}
+
 @media (max-width:1250px) {
     .footer-top-box {
         justify-content: center;

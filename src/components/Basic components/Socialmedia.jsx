@@ -23,7 +23,7 @@ const Socialmedia = () => {
 
                 <abbr title="LinkedIn">
                 <div className='social-media-form-icons'>
-                    <img src={linkedImg} alt='icon'/>
+                    <a href='https://www.linkedin.com/company/pushpak-drone-viman/'><img src={linkedImg} alt='icon'/></a>
                 </div>
                 </abbr>
 
