@@ -26,7 +26,7 @@ const pdata=[
     },
     {
             title: "Drone Components / Kit",
-            imgsrc: nullimg,
+            imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2Fcomponents%26kits.png?alt=media&token=f13a3932-c14b-4cdc-8ff8-c2fb32b037de",
             contant:"Pushpak Drone Viman, where we specialize in providing drone kits for enthusiasts and professionals alike. Our kits are tailored to meet the needs of both commercial purposes and educational training in the drone industry. Explore our wide range of drone components designed to empower your aerial endeavours."
     },
     {
@@ -46,7 +46,7 @@ const pdata=[
     },
     {
             title: "Educational Tools",
-            imgsrc: nullimg,
+            imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Product%2Feductional%20tool.png?alt=media&token=44f4aeac-74bb-4298-a99b-34d8948cbeb3",
             contant:" Empowering education through my startup! Specializing in 3D printing for the educational field, providing students with tangible models to enhance understanding of physics, chemistry bonding, and biological concepts. Bridging the gap between imagination and learning  1.Education Innovation  2.3D Printing Specialization  3.Enhancing Understanding in Physics, Chemistry, and Biology Concepts"
     },
     {
