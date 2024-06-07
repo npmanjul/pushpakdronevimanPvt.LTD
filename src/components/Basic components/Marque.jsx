@@ -9,8 +9,8 @@ const Marque = () => {
     <>
         <div className="marquee">
       <div className="marquee-content">
-      <a href={reglink}>Registration for “Four-week Summer Internship on Drone, 3D Printing, Design 2024” </a>
-      {/* --- <span className='marquee-link'>Link</span> */}
+      <a href={reglink} target='_blank'>Registration for “Four-week Summer Internship on Drone, 3D Printing, Design 2024” - <span className='marquee-link'>Click Here</span> </a>
+      
       </div>
     </div>
     </>
