@@ -6,6 +6,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Training_dropdown from './Training_dropdown';
 import Services_dropdown from "./Services_dropdown";
 import Product_dropdown from "./Product_dropdown";
+import Marque from "./Marque";
 
 const Navbar = () => {
 
@@ -26,46 +27,49 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="navbar">
-                <div className="logo_section">
-                    <Link to='/'>
-                        <img src={logo}  alt="logo"/>
-                    </Link>
-                </div>
-                <div className="navigation">
-                    <div className="home_section">
-                        <NavLink to='/' className="link">Home</NavLink>
+            <div className="navbar-container" >
+            <Marque/>
+                <div  className="navbar">
+                    <div className="logo_section">
+                        <Link to='/'>
+                            <img src={logo} alt="logo" />
+                        </Link>
                     </div>
-                    <div className="dropdown_box">
-                        <NavLink to='/training' className="link">Training</NavLink>
-                        <div className="dropdown_boxes">
-                            <Training_dropdown />
+                    <div className="navigation">
+                        <div className="home_section">
+                            <NavLink to='/' className="link">Home</NavLink>
+                        </div>
+                        <div className="dropdown_box">
+                            <NavLink to='/training' className="link">Training</NavLink>
+                            <div className="dropdown_boxes">
+                                <Training_dropdown />
+                            </div>
+                        </div>
+                        <div className="dropdown_box">
+                            <NavLink to='/services' className="link">Services</NavLink>
+                            <div className="dropdown_boxes ">
+                                <Services_dropdown />
+                            </div>
+                        </div>
+                        <div className="dropdown_box">
+                            <NavLink to='/product' className="link">Product</NavLink>
+                            <div className="dropdown_boxes ">
+                                <Product_dropdown />
+                            </div>
+                        </div>
+                        <div className="R&D_section ">
+                            <NavLink to='/rd' className="link">R&D</NavLink>
+                        </div>
+                        <div className="about_us_section " >
+                            <NavLink to='/aboutus' className="link">About Us</NavLink>
                         </div>
                     </div>
-                    <div className="dropdown_box">
-                        <NavLink to='/services' className="link">Services</NavLink>
-                        <div className="dropdown_boxes ">
-                            <Services_dropdown />
-                        </div>
+                    <div className="contact_section">
+                        <NavLink to='/contactus' className="linkcontactus"> <button>Contact Us</button></NavLink>
                     </div>
-                    <div className="dropdown_box">
-                        <NavLink to='/product' className="link">Product</NavLink>
-                        <div className="dropdown_boxes ">
-                            <Product_dropdown />
-                        </div>
+                    <div className='menu-section'>
+                        <button onClick={openNav} id="menu_line" ><MenuIcon /></button>
                     </div>
-                    <div className="R&D_section ">
-                        <NavLink to='/rd' className="link">R&D</NavLink>
-                    </div>
-                    <div className="about_us_section " >
-                        <NavLink to='/aboutus' className="link">About Us</NavLink>
-                    </div>
-                </div>
-                <div className="contact_section">
-                    <NavLink to='/contactus' className="linkcontactus"> <button>Contact Us</button></NavLink>
-                </div>
-                <div className='menu-section'>
-                    <button onClick={openNav} id="menu_line" ><MenuIcon /></button>
                 </div>
             </div>
 
@@ -74,7 +78,7 @@ const Navbar = () => {
                 <div id="myNav" class="overlay">
 
                     <div className="menu-top">
-                        <img src={logo}  alt="logo"/>
+                        <img src={logo} alt="logo" />
                     </div>
                     <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
 
