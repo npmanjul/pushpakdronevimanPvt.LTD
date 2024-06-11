@@ -150,6 +150,20 @@
     height: 24px;
 }
 
+.footer-phoneno a
+{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-Email a
+{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
 @media (max-width:1250px) {
     .footer-top-box {
         justify-content: center;
