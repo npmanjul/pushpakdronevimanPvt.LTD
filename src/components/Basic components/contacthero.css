@@ -1,0 +1,40 @@
+.contactus-hero-container
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/contacthero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus-heading
+{
+    font-size: 6rem;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+@media (max-width:840px) {
+    .contactus-heading
+{
+    font-size: 5rem;
+}
+}
+
+@media (max-width:550px) {
+    .contactus-heading
+{
+    font-size: 4rem;
+}
+}
+
+@media (max-width:380px) {
+    .contactus-heading
+{
+    font-size: 3rem;
+}
+}

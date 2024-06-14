@@ -42,9 +42,9 @@ const Form = () => {
         <>
             <div className='contactus-container'>
                 <div class="form">
-                    <div class="form-heading">
+                    {/* <div class="form-heading">
                         Connect With Us
-                    </div>
+                    </div> */}
 
 
                     <form name="submit-to-google-sheet">
@@ -63,7 +63,7 @@ const Form = () => {
                                     Email Address
                                 </div>
                                 <div class="form-email">
-                                    <input type="email" name="Email" placeholder="Eg.example@email.com" />
+                                    <input type="email" name="Email" placeholder="Enter your email address" />
                                 </div>
                             </div>
 
@@ -72,7 +72,7 @@ const Form = () => {
                                     Phone number
                                 </div>
                                 <div class="form-phone-no">
-                                    <input type="number" name="PhoneNumber" placeholder="Eg +1 8000 000000" maxlength="10" required />
+                                    <input type="number" name="PhoneNumber" placeholder="Enter your phone no." maxlength="10" required />
                                 </div>
                             </div>
 

@@ -28,7 +28,7 @@ const Navbar = () => {
     return (
         <>
             <div className="navbar-container" >
-            {/* <Marque/> */}
+            <Marque/>
                 <div  className="navbar">
                     <div className="logo_section">
                         <Link to='/'>
@@ -58,7 +58,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="R&D_section ">
-                            <NavLink to='/rd' className="link">R&D</NavLink>
+                            <NavLink to='/news-article' className="link">Media</NavLink>
                         </div>
                         <div className="about_us_section " >
                             <NavLink to='/aboutus' className="link">About Us</NavLink>
@@ -87,7 +87,7 @@ const Navbar = () => {
                         <NavLink to='/training' className="link" onClick={closeNav}>Training</NavLink>
                         <NavLink to='/services' className="link" onClick={closeNav}>Services</NavLink>
                         <NavLink to='/product' className="link" onClick={closeNav}>Product</NavLink>
-                        <NavLink to='/rd' className="link" onClick={closeNav}>R&D</NavLink>
+                        <NavLink to='/news-article' className="link" onClick={closeNav}>Media</NavLink>
                         <NavLink to='/aboutus' className="link" onClick={closeNav}>About Us</NavLink>
                         <div className="contact_section-menu">
                             <NavLink to='/contactus' className="linkcontactus" onClick={closeNav}> <button>Contact Us</button></NavLink>
