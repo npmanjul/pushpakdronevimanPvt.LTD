@@ -1,0 +1,29 @@
+.iframe-box
+{
+    width: 80%;
+    height:470px;
+    max-width: 1250px;
+}
+
+@media (max-width:1130px) {
+    .iframe-box
+{
+    height:360px;
+    width: 90%;
+}
+}
+
+
+@media (max-width:440px) {
+    .iframe-box
+{
+    width: 95%;
+}
+}
+
+@media (max-width:350px) {
+    .iframe-box
+{
+    height:300px;
+}
+}

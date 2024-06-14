@@ -1,12 +1,12 @@
-import React from 'react'; 
+import React from 'react';
 import './abouthero.css';
 
 const Aboutushero = () => {
   return (
     <>
-    <div className='hero-container'>
-    <div className='aboutus-heading'>About Us</div>
-    </div>
+      <div className='hero-container'>
+        <div className='aboutus-heading'>About Us</div>
+      </div>
     </>
   )
 }

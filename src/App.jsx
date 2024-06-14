@@ -4,7 +4,7 @@ import Home from './components/Pages/Home';
 import Training from './components/Pages/Training';
 import Services from './components/Pages/Services';
 import Product from './components/Pages/Product';
-import R_D from './components/Pages/R_D';
+import News_article from './components/Pages/News_article';
 import Aboutus from './components/Pages/Aboutus';
 import Contactus from './components/Pages/Contactus';
 import Navbar from './components/Basic components/Navbar';
@@ -54,7 +54,7 @@ const App = () => {
                 <Route path='/training' element={<Training/>}/>
                 <Route path='/services' element={<Services/>}/>
                 <Route path='/product' element={<Product/>}/>
-                <Route path='/rd' element={<R_D/>}/>
+                <Route path='/news-article' element={<News_article/>}/>
                 <Route path='/aboutus' element={<Aboutus/>}/>
                 <Route path='/contactus' element={<Contactus/>}/>
                 <Route path='/threedayworkshopondrone' element={<Threedayworkshopondrone/>}/>
@@ -78,9 +78,6 @@ const App = () => {
                 <Route path='/DroneKitspage' element={<DroneKits/>}/>
                 <Route path='/PrintedObjectpage' element={<PrintedObject/>}/>
                 <Route path='/EductionalToolpage' element={<EductionalTool/>}/>
-                
-
-
                 <Route path='*' element={<Error/>}/>
             </Routes>
           </BrowserRouter>
