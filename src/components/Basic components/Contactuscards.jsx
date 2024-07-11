@@ -22,8 +22,8 @@ const Contactuscards = () => {
                         <div className='contactuscards-box-lowercontainer-content'>
                             <div className='contactuscards-box-lowercontainer-content_top'>
                                 <div className='contactuscards-box-lowercontainer-content-heading'>Get in Touch</div>
-                                <div className='contactuscards-box-lowercontainer-content-txt'>9876543210</div>
-                                <div className='contactuscards-box-lowercontainer-content-txt'>pushpakdrone12@gmail.com</div>
+                                <div className='contactuscards-box-lowercontainer-content-txt'><a href="tel:9369595897">9369595897</a></div>
+                                <div className='contactuscards-box-lowercontainer-content-txt'><a href="mailto:pushpakdrone12@gmail.com">pushpakdrone12@gmail.com</a></div>
                             </div>
                             <div className='contactuscards-box-lowercontainer-content_lower'>
                                 <img src={contactImg}/>
@@ -44,7 +44,7 @@ const Contactuscards = () => {
                         <div className='contactuscards-box-lowercontainer-content'>
                             <div className='contactuscards-box-lowercontainer-content_top'>
                                 <div className='contactuscards-box-lowercontainer-content-heading'>Main Office</div>
-                                <div className='contactuscards-box-lowercontainer-content-address'>Jungle subhan Ali, Unaula, Gorakhpur, 273152(U.P.)</div>
+                                <div className='contactuscards-box-lowercontainer-content-address'><a href="https://www.google.com/maps?ll=26.73143,83.433128&z=16&t=m&hl=en&gl=IN&mapclient=embed&cid=13851310967999379625">Jungle subhan Ali, Unaula, Gorakhpur, 273152(U.P.)</a></div>
                             </div>
                             <div className='contactuscards-box-lowercontainer-content_lower'>
                                 <img src={locationImg}/>

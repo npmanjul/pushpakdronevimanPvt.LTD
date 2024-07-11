@@ -5,12 +5,14 @@ import sdata from '../Basic components/data/Servicesdata';
 import Heading from '../Basic components/Heading';
 import Containerleft from '../Basic components/Containerleft';
 import ContainerRight from '../Basic components/ContainerRight';
+import Serviceshero from '../Basic components/Serviceshero';
 
 const Services = () => {
   return (
     <>
            <div className='container'>
                 <Blankspace />
+                <Serviceshero/>
                 <Heading heading={"Drone"} />
                 <Containerleft img={sdata[0].imgsrc} headingtitle={sdata[0].title} textcontent={sdata[0].contant} knowMore={'/AgricultureDroneAppliction'}/>
                 <ContainerRight img={sdata[1].imgsrc} headingtitle={sdata[1].title} textcontent={sdata[1].contant} knowMore={'/mappingandservillancingpage'}/>

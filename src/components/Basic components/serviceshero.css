@@ -1,7 +1,7 @@
-.contactus-hero-container
+.Serviceshero-container
 {
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://www.liquiloans.com/images/bg-contactus.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/serviceshero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,8 @@
     align-items: center;
 }
 
-.contactus-heading
+
+.aboutus-heading
 {
     font-size: 6rem;
     color: white;
@@ -20,32 +21,34 @@
 
 @media (max-width:1000px)
 {
-    .contactus-hero-container
+    .Serviceshero-container
     {
         height: 60vh;
     }
 }
 
+
 @media (max-width:840px) {
-    .contactus-heading
+   
+    .aboutus-heading
 {
     font-size: 5rem;
 }
 }
 
 @media (max-width:550px) {
-    .contactus-heading
+    .aboutus-heading
 {
     font-size: 4rem;
 }
-.contactus-hero-container
+.Serviceshero-container
 {
     height: 50vh;
 }
 }
 
 @media (max-width:380px) {
-    .contactus-heading
+    .aboutus-heading
 {
     font-size: 3rem;
 }
