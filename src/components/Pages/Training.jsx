@@ -5,6 +5,7 @@ import Heading from '../Basic components/Heading';
 import Containerleft from '../Basic components/Containerleft';
 import ContainerRight from '../Basic components/ContainerRight';
 import tdata from '../Basic components/data/trainingdata';
+import { Traininghero } from '../Basic components/Traininghero';
 
 
 const Training = () => {
@@ -12,6 +13,7 @@ const Training = () => {
     <>
            <div className='container'>
                 <Blankspace />
+                <Traininghero/>
                 <Heading heading={"Drone"} />
                 <Containerleft img={tdata[0].imgsrc} headingtitle={tdata[0].title} textcontent={tdata[0].contant} custom_msg={'are you like this training'}  knowMore={'/threedayworkshopondrone'}/>
                 <ContainerRight img={tdata[1].imgsrc} headingtitle={tdata[1].title} textcontent={tdata[1].contant} knowMore={'/oneweekworkshopondrone'}/>
