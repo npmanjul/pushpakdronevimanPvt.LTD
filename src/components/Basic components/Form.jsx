@@ -16,8 +16,7 @@ const Form = () => {
             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
                 .then(response => {
                     console.log("ok");
-                   
-
+                    alert("Submit Successfully");
                 })
                 .catch(error => console.error('Error!', error.message));
         };
@@ -31,11 +30,11 @@ const Form = () => {
     }, []);
 
     const showmsg=()=>{
-        msg.innerHTML = "Submit Succesfully !";
+        // msg.innerHTML = "Submit Succesfully !";
 
         setTimeout(function(){
             msg.innerHTML = "";
-        }, 5000);
+        }, 10);
     }
 
     return (

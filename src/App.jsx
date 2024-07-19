@@ -30,6 +30,7 @@ import Dronerepairservice from './components/SubPage/Services/Dronerepairservice
 import DroneKits from './components/SubPage/Product Page/DroneKits';
 import PrintedObject from './components/SubPage/Product Page/PrintedObject';
 import EductionalTool from './components/SubPage/Product Page/EductionalTool';
+import SubmitPage from './components/Pages/SubmitPage';
 
 
 const App = () => {
@@ -78,6 +79,7 @@ const App = () => {
                 <Route path='/DroneKitspage' element={<DroneKits/>}/>
                 <Route path='/PrintedObjectpage' element={<PrintedObject/>}/>
                 <Route path='/EductionalToolpage' element={<EductionalTool/>}/>
+                <Route path='/SubmitPage' element={<SubmitPage/>}/>
                 <Route path='*' element={<Error/>}/>
             </Routes>
           </BrowserRouter>
