@@ -1,13 +1,13 @@
 .hero-container
 {
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/groupimg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./img/groupimg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
 .aboutus-heading
@@ -16,6 +16,7 @@
     color: white;
     font-weight: 600;
     font-family: sans-serif;
+    padding-top: 7.5rem;
 }
 
 @media (max-width:1000px)
