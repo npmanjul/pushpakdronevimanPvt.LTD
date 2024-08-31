@@ -11,6 +11,7 @@ import Aboutusprofile from '../Basic components/Aboutusprofile';
 import Heading from '../Basic components/Heading';
 import Ourmentor from '../Basic components/Ourmentor';
 import Crousal from '../Basic components/Crousal';
+import Teamcards from '../Basic components/Teamcards';
 
 const Aboutus = () => {
   return (
@@ -27,7 +28,8 @@ const Aboutus = () => {
           <Heading heading={"Our Mentor"} />
           <Ourmentor/>
           <Heading heading={"Our Team"} />
-          <Crousal/>
+          {/* <Crousal/> */}
+          <Teamcards/>
 
         </div>
         <Footer />

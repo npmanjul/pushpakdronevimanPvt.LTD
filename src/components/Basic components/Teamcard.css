@@ -1,0 +1,127 @@
+.boardmember-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.boardmember-heading-box
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.boardmember-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+.boardmember-area {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 4rem;
+    flex-wrap: wrap;
+    /* cursor: pointer; */
+}
+
+
+
+
+.boardmember-profile-cards {
+    height: 330px;
+    width: 280px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.157) 0px 0px 10px -2.5px;
+    gap: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+.boardmember-img img {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+}
+
+.boardmember-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boardmember-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.boardmember-designation {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (max-width:800px) {
+    .boardmember-heading
+    {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width:650px) {
+    .boardmember-heading
+    {
+        font-size: 2.3rem;
+      width: 80%;
+    }
+}
+
+
+
+/* @media (max-width:550px)
+{
+    .boardmember-heading
+    {
+        font-size: 1.8rem;
+    }
+} */
+
+@media (max-width:465px) {
+    .boardmember-area {
+        width: 100%;
+       
+    }
+}
+
+
+
+
+@media (max-width:350px) {
+    .boardmember-heading
+    {
+        font-size: 2rem;
+    }
+}
