@@ -72,7 +72,7 @@
 .boardmember-name {
     font-size: 1.4rem;
     font-weight: 700;
-    width: 80%;
+    /* width: 80%; */
     text-align: center;
     padding-bottom: 5px;
 }
@@ -81,6 +81,20 @@
     font-size: 1.1rem;
     font-weight: 600;
     text-align: center;
+}
+
+.boardmember-socialmedia
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    padding-top: 0.5rem;
+}
+.boardmember-socialmedia img
+{
+    height: 20px;
+    cursor: pointer;
 }
 
 @media (max-width:800px) {
