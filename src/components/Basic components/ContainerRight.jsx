@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Container = (props) => {
     function openWhatsApp() {
         // Specify the phone number and message (optional)
-        var phoneNumber = '917523801921'; // Replace with your desired phone number
+        var phoneNumber = '919369595897'; // Replace with your desired phone number
         var message = 'Hello Are your like this ? Know More about it..  '; // Replace with your desired message
   
         // Construct the WhatsApp URL

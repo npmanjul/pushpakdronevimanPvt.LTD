@@ -10,7 +10,7 @@ const Container = (props) => {
 
     function openWhatsApp(cust_msg) {
         
-        var phoneNumber = '917523801921'; 
+        var phoneNumber = '919369595897'; 
         var message = 'Hello are your like this drone? Know More about it..  '; // Replace with your desired message
 
         // var message =cust_msg;
