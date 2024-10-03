@@ -1,12 +1,16 @@
 .aboutus-container
 {
-    margin: 0 6rem;
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 6rem;
 }
+
 
 @media (max-width:1050px) {
     .aboutus-container
 {
     margin: 0 4rem;
+    padding: 0;
 }
 }
 

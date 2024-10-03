@@ -5,13 +5,13 @@ const nullimg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBNj2PAp5
 
 const cdata = [
 
-    {
-        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2Fvivek.jpeg?alt=media&token=fb90f03a-6a52-4d38-ab29-a970954d965e",
-        name: "Vivek Shukla",
-        domin: "Design/3D Printing",
-        email: "vivekshukla3719@gmail.com",
-        linkedIn: "https://www.linkedin.com/in/vivekshukla3719?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    },
+    // {
+    //     imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2Fvivek.jpeg?alt=media&token=fb90f03a-6a52-4d38-ab29-a970954d965e",
+    //     name: "Vivek Shukla",
+    //     domin: "Design/3D Printing",
+    //     email: "vivekshukla3719@gmail.com",
+    //     linkedIn: "https://www.linkedin.com/in/vivekshukla3719?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    // },
     // {
     //     imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2Fharsh%20raj.jpg?alt=media&token=1ddb4fe4-1653-489a-b438-a6f5d2a9b208",
     //     name: "Harsh Raj",
@@ -63,20 +63,20 @@ const cdata = [
         linkedIn: "https://www.linkedin.com/in/anjul-singh-3500a1219"
     },
   
-    {
-        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2Fprofile-pic%20(1).png?alt=media&token=f4369757-535a-4946-8f54-4647c798a7ad",
-        name: "Priyanshu Mishra",
-        domin: "Sales & Marketing",
-        email: "prynshu09@gmail.com",
-        linkedIn: "https://www.linkedin.com/in/priyanshu-mishra-a1856a24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    },
-    {
-        imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2FWhatsApp%20Image%202024-04-14%20at%2018.15.23_f27be10a.jpg?alt=media&token=90cd0645-cd18-403d-a0a3-b1f77275e980",
-        name: "Samarth Mishra",
-        domin: "Sales & Marketing",
-        email: "prynshu09@gmail.com",
-        linkedIn: "https://www.linkedin.com/in/samarth-mishra-17a58224a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-    },
+    // {
+    //     imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2Fprofile-pic%20(1).png?alt=media&token=f4369757-535a-4946-8f54-4647c798a7ad",
+    //     name: "Priyanshu Mishra",
+    //     domin: "Sales & Marketing",
+    //     email: "prynshu09@gmail.com",
+    //     linkedIn: "https://www.linkedin.com/in/priyanshu-mishra-a1856a24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    // },
+    // {
+    //     imgsrc: "https://firebasestorage.googleapis.com/v0/b/pushpak-drone-viman-pvt-ltd.appspot.com/o/Team%20Img%2FWhatsApp%20Image%202024-04-14%20at%2018.15.23_f27be10a.jpg?alt=media&token=90cd0645-cd18-403d-a0a3-b1f77275e980",
+    //     name: "Samarth Mishra",
+    //     domin: "Sales & Marketing",
+    //     email: "prynshu09@gmail.com",
+    //     linkedIn: "https://www.linkedin.com/in/samarth-mishra-17a58224a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    // },
   
 ]
 
