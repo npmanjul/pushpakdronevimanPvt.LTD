@@ -1,146 +1,162 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './form.css';
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../../Store/auth';
+import { toast } from 'react-toastify';
 
-
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwHVBKwahGjQOPbUWiZUlx6Ekqp1rKIQqzQ18Qm0EAJ3bjyll3wPmlZPihSvBE91umZ/exec';
+const defaultContactFormData = {
+    username: "",
+    email: "",
+    phone: "",
+    address: "",
+    message: ""
+}
 
 const Form = () => {
 
-    var msg = document.getElementById("conform-msg");
+    const [formData, setFormData] = useState(defaultContactFormData);
+    const [user, setUser] = useState(true);
+    const { userData } = useAuth();
+    const Navigate = useNavigate();
+    const [submitMessage, setSubmitMessage] = useState('');
+    const {hostLink}=useAuth();
+
     useEffect(() => {
-        const form = document.forms['submit-to-google-sheet'];
-        msg = document.getElementById("conform-msg");
+        if(userData && user){
+            setFormData({
+                username: userData.username,
+                email: userData.email,
+                phone: userData.phone,
+                address: "",
+                message: "",
+            });
+            setUser(false);
+        }
+    },[userData,user,setFormData]);
 
-        const submitForm = (e) => {
-            e.preventDefault();
-            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => {
-                    console.log("ok");
-                    alert("Submit Successfully");
-                })
-                .catch(error => console.error('Error!', error.message));
-        };
+    const handleChange = (e) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value,
+        });
+    };
 
-        form.addEventListener('submit', submitForm);
+    const handleSubmit = async (e) => {
+        e.preventDefault();
 
-        
-        return () => {
-            form.removeEventListener('submit', submitForm);
-        };
-    }, []);
+        try {
+            const response = await fetch(`${hostLink}/form/contact`, {
+                method: 'POST',
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(formData)
+            })
 
-    const showmsg=()=>{
-        // msg.innerHTML = "Submit Succesfully !";
+            const res_data=await response.json();
 
-        setTimeout(function(){
-            msg.innerHTML = "";
-        }, 10);
+            if (response.ok) {
+                setFormData({
+                    username: userData.username,
+                    email: userData.email,
+                    phone: userData.phone,
+                    address: "",
+                    message: "",
+                });
+                toast.success("Message sent successfully");
+                Navigate('/contactus');
+            }else{
+                toast.error(res_data.extraDetails ? res_data.extraDetails : res_data.message)
+            }
+        } catch (err) {
+            console.log("contact error", err);
+        }
     }
 
     return (
         <>
             <div className='contactus-container'>
                 <div class="form">
-                    {/* <div class="form-heading">
-                        Connect With Us
-                    </div> */}
-
-
-                    <form name="submit-to-google-sheet">
-                        <div class="form-box">
-                            <div class="name">
-                                <div class="form-name-heading heading">
-                                    Your Name
-                                </div>
-                                <div class="form-name">
-                                    <input type="text" name="Name" placeholder="Enter your name" required />
-                                </div>
-                            </div>
-
-                            <div class="Email">
-                                <div class="form-email-heading heading">
-                                    Email Address
-                                </div>
-                                <div class="form-email">
-                                    <input type="email" name="Email" placeholder="Enter your email address" />
+                    <form onSubmit={handleSubmit} name="submit-to-google-sheet">
+                        <div className="form-box">
+                            <div className="name">
+                                <div className="form-name-heading heading">Your Name</div>
+                                <div className="form-name">
+                                    <input
+                                        type="text"
+                                        name="username"
+                                        value={formData.username}
+                                        onChange={handleChange}
+                                        placeholder="Enter your name"
+                                        required
+                                    />
                                 </div>
                             </div>
 
-                            <div class="phone-no">
-                                <div class="phone-no-heading heading">
-                                    Phone number
-                                </div>
-                                <div class="form-phone-no">
-                                    <input type="number" name="PhoneNumber" placeholder="Enter your phone no." maxlength="10" required />
-                                </div>
-                            </div>
-
-                            <div class="name">
-                                <div class="form-name-heading heading">
-                                    Your Address
-                                </div>
-                                <div class="form-name">
-                                    <input type="text" name="Address" placeholder="Enter your address" />
+                            <div className="Email">
+                                <div className="form-email-heading heading">Email Address</div>
+                                <div className="form-email">
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                        placeholder="Enter your email address"
+                                    />
                                 </div>
                             </div>
 
-                            <div class="message">
-                                <div class="message-heading heading">
-                                    Message
-                                </div>
-                                <div class="form-message">
-                                    <textarea name="Message" id="" cols="30" rows="5" placeholder="Please enter your comments..."></textarea>
+                            <div className="phone-no">
+                                <div className="phone-no-heading heading">Phone number</div>
+                                <div className="form-phone-no">
+                                    <input
+                                        type="number"
+                                        name="phone"
+                                        value={formData.phone}
+                                        onChange={handleChange}
+                                        placeholder="Enter your phone no."
+                                        required
+                                    />
                                 </div>
                             </div>
 
-
-                            <div class="submit-btn">
-                                <button type="submit" onClick={ showmsg}>Submit</button>
-                                <div id="conform-msg">&nbsp;</div>
+                            <div className="name">
+                                <div className="form-name-heading heading">Your Address</div>
+                                <div className="form-name">
+                                    <input
+                                        type="text"
+                                        name="address"
+                                        value={formData.address}
+                                        onChange={handleChange}
+                                        placeholder="Enter your address"
+                                    />
+                                </div>
                             </div>
 
+                            <div className="message">
+                                <div className="message-heading heading">Message</div>
+                                <div className="form-message">
+                                    <textarea
+                                        name="message"
+                                        value={formData.message}
+                                        onChange={handleChange}
+                                        cols="30"
+                                        rows="5"
+                                        placeholder="Please enter your comments..."
+                                    ></textarea>
+                                </div>
+                            </div>
+
+                            <div className="form-submit-btn">
+                                <button type="submit">Submit</button>
+                                <div id="conform-msg">{submitMessage}</div>
+                            </div>
                         </div>
                     </form>
 
                 </div>
             </div>
 
-            {/* <div class="contact">
-                <div class="contact-container">
-                    <div class="contact-box icon-hover">
-                        <img src={phoneImg} alt="" />
-                        <span class="contactus-title">Call Me</span>
-                    </div>
-                    <div class="contact-box icon-hover">
-                        <img src={mailImg} alt="" />
-                        <span class="contactus-title">Email</span>
-                    </div>
-                    <div class="contact-box icon-hover">
-                        <img src={whatsappImg} alt="" />
-                        <span class="contactus-title">Whatsapp</span>
-                    </div>
-                    <div class="contact-box icon-hover">
-                        <img src={linkedImg} alt="" />
-                        <span class="contactus-title">LinkedIn</span>
-                    </div>
-                    <div class="contact-box icon-hover">
-                        <img src={youtubeImg} alt="" />
-                        <span class="contactus-title">Youtube</span>
-                    </div>
-                    <div class="contact-box icon-hover">
-                        <img src={instaImg} alt="" />
-                        <span class="contactus-title">Instagram</span>
-                    </div>
-                    <div class="contact-box icon-hover">
-                        <img src={twitter} alt="" />
-                        <span class="contactus-title">Twitter(X)</span>
-                    </div>
-                    <div class="contact-box icon-hover">
-                        <img src={facebookimg} alt="" />
-                        <span class="contactus-title">Facebook</span>
-                    </div>
-                </div>
-            </div> */}
         </>
     )
 }

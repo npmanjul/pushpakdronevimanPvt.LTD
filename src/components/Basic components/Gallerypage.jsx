@@ -1,15 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './gallery.css'
 import GalleryImg from './GalleryImg';
-import gData from './data/GalleryData';
+import { useAuth } from '../../Store/auth';
 
 const Gallerypage = () => {
+
+  const {galleryData}=useAuth();
+
   return (
     <>
-
-
       <div className='gallery-container'>
-        {gData.map(function (data) {
+        {galleryData.map(function (data) {
           return (
             <div className='gallery-container-inner'>
               <GalleryImg imgSrc={data.photoSrc} headingSrc={data.heading} subheadingSrc={data.subTitle} />

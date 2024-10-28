@@ -7,8 +7,11 @@ import Training_dropdown from './Training_dropdown';
 import Services_dropdown from "./Services_dropdown";
 import Product_dropdown from "./Product_dropdown";
 import Marque from "./Marque";
+import { useAuth } from "../../Store/auth";
 
 const Navbar = () => {
+
+    const { isLoggedIn,adminAccess } = useAuth();
 
     function openNav() {
         document.getElementById("myNav").style.width = "100%";
@@ -28,8 +31,8 @@ const Navbar = () => {
     return (
         <>
             <div className="navbar-container" >
-            {/* <Marque/> */}
-                <div  className="navbar">
+                {/* <Marque/> */}
+                <div className="navbar">
                     <div className="logo_section">
                         <Link to='/'>
                             <img src={logo} alt="logo" />
@@ -63,10 +66,30 @@ const Navbar = () => {
                         <div className="about_us_section " >
                             <NavLink to='/aboutus' className="link">About Us</NavLink>
                         </div>
+                       {
+                        adminAccess ? (
+                            <div className="about_us_section " >
+                            <NavLink to='/adminpage/user' className="link">Admin</NavLink>
+                        </div>
+                           ):(
+                            <></>
+                           )
+                       }
                     </div>
-                    <div className="contact_section">
-                        <NavLink to='/contactus' className="linkcontactus"> <button>Contact Us</button></NavLink>
-                    </div>
+
+                    {
+                        !isLoggedIn ? (
+                            <div className="contact_section">
+                                <NavLink to='/login' className="linkcontactus"> <button>Login</button></NavLink>
+                            </div>
+
+                        ) : (
+                            <div className="contact_section">
+                                <NavLink to='/logout' className="linkcontactus"> <button>Logout</button></NavLink>
+                            </div>
+                        )
+                    }
+
                     <div className='menu-section'>
                         <button onClick={openNav} id="menu_line" ><MenuIcon /></button>
                     </div>

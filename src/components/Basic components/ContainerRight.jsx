@@ -17,7 +17,7 @@ const Container = (props) => {
     return (
         <>
             <div className='main-container main-container-right'>
-                <div className='image-box'>
+                <div className='image-box-container'>
                 <img src={props.img} alt='image'/>
                 </div>
                 <div className='contant-box-right contant-box'>

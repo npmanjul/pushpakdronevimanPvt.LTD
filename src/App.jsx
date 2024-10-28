@@ -30,7 +30,17 @@ import Dronerepairservice from './components/SubPage/Services/Dronerepairservice
 import DroneKits from './components/SubPage/Product Page/DroneKits';
 import PrintedObject from './components/SubPage/Product Page/PrintedObject';
 import EductionalTool from './components/SubPage/Product Page/EductionalTool';
-import SubmitPage from './components/Pages/SubmitPage';
+import LoginPage from './components/Pages/LoginPage';
+import SignupPage from './components/Pages/SignupPage';
+import Blankspace from './components/Basic components/Blankspace';
+import LogoutPage from './components/Pages/LogoutPage';
+import AdminPage from './components/Pages/AdminPage';
+import Admin_user from './components/Pages/Admin-user';
+import Admin_contact from './components/Pages/Admin_contact';
+import Adminmedia from './components/Pages/Admin-media';
+import Admin_user_update from './components/Pages/Admin_user_update';
+import Admin_addMedia from './components/Pages/Admin_addMedia';
+import Admin_updateMedia from './components/Pages/Admin_updateMedia';
 
 
 const App = () => {
@@ -49,6 +59,7 @@ const App = () => {
         <>
           <BrowserRouter>
           <Navbar/>
+          {/* <Blankspace/> */}
             <ScrollToTop />
             <Routes>
                 <Route path='/' element={<Home/>}/>
@@ -79,7 +90,18 @@ const App = () => {
                 <Route path='/DroneKitspage' element={<DroneKits/>}/>
                 <Route path='/PrintedObjectpage' element={<PrintedObject/>}/>
                 <Route path='/EductionalToolpage' element={<EductionalTool/>}/>
-                <Route path='/SubmitPage' element={<SubmitPage/>}/>
+                <Route path='/login' element={<LoginPage/>}/>
+                <Route path='/signup' element={<SignupPage/>}/>
+                <Route path='/logout' element={<LogoutPage/>}/>
+                <Route path='/adminpage' element={<AdminPage/>}>
+                    <Route path='user' element={<Admin_user/>}/>
+                    <Route path='user-message' element={<Admin_contact/>}/>
+                    <Route path='media' element={<Adminmedia/>}/>
+                    <Route path='user-update/:id' element={<Admin_user_update/>}/>
+                    <Route path='media/addmedia' element={<Admin_addMedia/>}/>
+                    <Route path='update/:id' element={<Admin_updateMedia/>}/>
+
+                </Route>
                 <Route path='*' element={<Error/>}/>
             </Routes>
           </BrowserRouter>
