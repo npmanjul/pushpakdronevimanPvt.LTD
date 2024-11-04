@@ -25,6 +25,9 @@ const AdminPage = () => {
           <NavLink to='/adminpage/media' className='w-full bg-green-600 rounded-[10px] px-3 py-2 text-white font-bold cursor-pointer'>
               <div>Media</div>
           </NavLink>
+          <NavLink to='/adminpage/ourteam' className='w-full bg-green-600 rounded-[10px] px-3 py-2 text-white font-bold cursor-pointer'>
+              <div>Our Team</div>
+          </NavLink>
 
         </div>
         <div className=' w-full'>

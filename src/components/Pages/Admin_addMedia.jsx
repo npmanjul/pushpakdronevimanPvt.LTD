@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import GalleryImg from '../Basic components/GalleryImg';
 import { toast } from 'react-toastify';
 import { useAuth } from '../../Store/auth';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import dummyImg from '../Basic components/img/dummy.png';
 
 const Admin_addMedia = () => {
@@ -13,23 +13,35 @@ const Admin_addMedia = () => {
     });
 
     const { authorizationToken,hostLink} = useAuth();
+    const [previewImage, setPreviewImage] = useState(null); 
+    const navigate = useNavigate();
 
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
     };
 
+    const handleFileChange = (e) => {
+        const file = e.target.files[0];
+        setFormData({ ...formData, photoSrc: file });
+        setPreviewImage(URL.createObjectURL(file)); // Generate preview URL
+    };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
 
         try {
+            const formDataToSend = new FormData();
+            formDataToSend.append("photoSrc", formData.photoSrc);
+            formDataToSend.append("heading", formData.heading);
+            formDataToSend.append("subTitle", formData.subTitle);
+
             const response = await fetch(`${hostLink}/media/gallery/addmedia`, {
-                method: 'POST',
+               method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json',
                     Authorization: authorizationToken,
                 },
-                body: JSON.stringify(formData)
+                body: formDataToSend
             });
 
             const res_data = await response.json();
@@ -38,6 +50,7 @@ const Admin_addMedia = () => {
 
             if (response.ok) {
                 setFormData({ photoSrc: '', heading: '', subTitle: '' });
+                navigate('/adminpage/media');
                 toast.success(res_data.message);
             } else {
                 toast.error(res_data.message);
@@ -58,7 +71,7 @@ const Admin_addMedia = () => {
                 
         </div>
             <div className='w-full flex justify-center items-center'>
-                <GalleryImg imgSrc={formData.photoSrc? formData.photoSrc:dummyImg} headingSrc={formData.heading} subheadingSrc={formData.subTitle} />
+                <GalleryImg imgSrc={previewImage || dummyImg} headingSrc={formData.heading} subheadingSrc={formData.subTitle} />
             </div>
             <div className='w-full h-full'>
                 <div className=" mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg">
@@ -68,7 +81,7 @@ const Admin_addMedia = () => {
                             <label htmlFor="photoSrc" className="block text-sm font-medium text-gray-700">
                                 Photo Link
                             </label>
-                            <input
+                            {/* <input
                                 type="text"
                                 id="photoSrc"
                                 name="photoSrc"
@@ -77,6 +90,15 @@ const Admin_addMedia = () => {
                                 placeholder="Enter the photo source link"
                                 required
                                 className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                            /> */}
+
+                            <input
+                                type="file"
+                                name="imageSrc"
+                                onChange={handleFileChange}
+                                accept="image/*"
+                                required
+                                className="border rounded px-2 py-1 w-full"
                             />
                         </div>
 

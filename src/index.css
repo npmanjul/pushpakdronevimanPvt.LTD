@@ -10,12 +10,16 @@
   user-select: none;
 }
 
-.container
+.pvd-container
 {
   height: 100vh;
   width: 100%;
 }
 
+img, video {
+  max-width: 2000px;
+  height: auto;
+}
 
 /* scroll bar styling*/
  

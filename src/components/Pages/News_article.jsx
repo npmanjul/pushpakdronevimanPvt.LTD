@@ -9,7 +9,7 @@ import './media.css'
 const R_D = () => {
   return (
     <>
-      <div className='container'>
+      <div className='pvd-container'>
         <Blankspace />
         <div className='media-container'>
           <Gallerypage />

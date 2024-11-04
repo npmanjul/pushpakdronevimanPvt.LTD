@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Teamcard.css'
-// import img from '../../Basic components/img/shrivilas_mishra.jpg'
-import profiles from '../Basic components/data/Crousaldata'
 import LinkedIcon from "../Basic components/icon/linkedin-fill.png"
 import emailIcon from "../Basic components/icon/mail-line.png"
+import { useAuth } from '../../Store/auth';
 
 const Teamcards = () => {
+    const [profiles, setProfiles] = useState([]);
+    const { teamMembers } = useAuth();
+
+    useEffect(() => {
+        setProfiles(teamMembers);
+    }, []);
+
+
     return (
         <>
             <div className='boardmember-container'>
@@ -13,14 +20,14 @@ const Teamcards = () => {
                     {profiles.map((profile) => (
                         <div className='boardmember-profile-cards'>
                             <div className='boardmember-img'>
-                                <img src={profile.imgsrc} alt={profile.name} />
+                                <img src={profile.imageSrc} alt={profile.name} />
                             </div>
                             <div className='boardmember-detail'>
                                 <div className='boardmember-name'>
                                     {profile.name}
                                 </div>
                                 <div className='boardmember-designation'>
-                                    {profile.domin}
+                                    {profile.designation}
                                 </div>
                                 <div className='boardmember-socialmedia'>
                                     <a href={profile.linkedIn} target='_blank'>

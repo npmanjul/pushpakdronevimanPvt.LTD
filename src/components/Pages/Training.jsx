@@ -12,7 +12,7 @@ import './common.css'
 const Training = () => {
   return (
     <>
-      <div className='container'>
+      <div className='pvd-container'>
         <Blankspace />
         <Traininghero />
         <div className='max-width-container'>

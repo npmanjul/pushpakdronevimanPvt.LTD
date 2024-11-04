@@ -7,7 +7,7 @@ import Blankspace from '../Basic components/Blankspace';
 const Home = () => {
     return (
         <>
-            <div className='container'>
+            <div className='pvd-container'>
                 <Blankspace />
                 <Herosection />
                 <Navigationbox />

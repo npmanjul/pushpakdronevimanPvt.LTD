@@ -8,8 +8,9 @@ export const AuthProvider = ({ children }) => {
     const [adminAccess, setAdminAccess] = useState(false);
     const [userData, setUserData] = useState("");
     const [galleryData, setGalleryData] = useState([]);
+    const [teamMembers, setTeamMembers] = useState([]);
     const authorizationToken=token;
-    const hostLink="https://pushpakdroneviman-backend.onrender.com";
+    const hostLink="http://localhost:5000" || "https://pushpakdroneviman-backend.onrender.com";
 
     let isLoggedIn=!!token;
 
@@ -55,14 +56,26 @@ export const AuthProvider = ({ children }) => {
         }
       }
 
+    const fetchTeamMembers = async () => {
+        try {
+          const response = await fetch(`${hostLink}/team/teammember`);
+          const res_data = await response.json();
+          const sortedData = res_data.sort((a, b) => a.order - b.order);
+          setTeamMembers(sortedData);
+        } catch (err) {
+          console.log("error in fetching team members", err);
+        }
+      }
+
     useEffect(()=>{
        if(isLoggedIn){
         userAuthentication();
        }
        fetchGalleryData();
+       fetchTeamMembers();
     },[isLoggedIn]);
 
-    return <AuthContext.Provider value={{storeTokenInLS,logoutUser,isLoggedIn,userData,authorizationToken,adminAccess,galleryData,fetchGalleryData,hostLink}}>
+    return <AuthContext.Provider value={{storeTokenInLS,logoutUser,isLoggedIn,userData,authorizationToken,adminAccess,galleryData,fetchGalleryData,hostLink,teamMembers,fetchTeamMembers}}>
         {children}
     </AuthContext.Provider>
 }

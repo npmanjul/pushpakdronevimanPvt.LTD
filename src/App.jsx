@@ -32,7 +32,6 @@ import PrintedObject from './components/SubPage/Product Page/PrintedObject';
 import EductionalTool from './components/SubPage/Product Page/EductionalTool';
 import LoginPage from './components/Pages/LoginPage';
 import SignupPage from './components/Pages/SignupPage';
-import Blankspace from './components/Basic components/Blankspace';
 import LogoutPage from './components/Pages/LogoutPage';
 import AdminPage from './components/Pages/AdminPage';
 import Admin_user from './components/Pages/Admin-user';
@@ -41,9 +40,14 @@ import Adminmedia from './components/Pages/Admin-media';
 import Admin_user_update from './components/Pages/Admin_user_update';
 import Admin_addMedia from './components/Pages/Admin_addMedia';
 import Admin_updateMedia from './components/Pages/Admin_updateMedia';
+import { useAuth } from './Store/auth';
+import Adminteam from './components/Pages/Admin-team';
+import Admin_addTeamMember from './components/Pages/Admin_addTeamMember';
+import Admin_updateTeamMember from './components/Pages/Admin_updateTeamMember';
 
 
 const App = () => {
+  const {fetchGalleryData}=useAuth();
 
   function ScrollToTop() {
     const { pathname } = useLocation();
@@ -51,10 +55,13 @@ const App = () => {
     useEffect(() => {
       window.scrollTo(0, 0); // Scrolls to the top of the page when the pathname changes
     }, [pathname]);
-  
+    
     return null;
   }
-
+  
+  useEffect(() => {
+    fetchGalleryData();
+  }, []);
     return (
         <>
           <BrowserRouter>
@@ -100,7 +107,9 @@ const App = () => {
                     <Route path='user-update/:id' element={<Admin_user_update/>}/>
                     <Route path='media/addmedia' element={<Admin_addMedia/>}/>
                     <Route path='update/:id' element={<Admin_updateMedia/>}/>
-
+                    <Route path='ourteam' element={<Adminteam/>}/>
+                    <Route path='addteammember' element={<Admin_addTeamMember/>}/>
+                    <Route path='updateteammember/:id' element={<Admin_updateTeamMember/>}/>
                 </Route>
                 <Route path='*' element={<Error/>}/>
             </Routes>
