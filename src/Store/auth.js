@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }) => {
     const [galleryData, setGalleryData] = useState([]);
     const [teamMembers, setTeamMembers] = useState([]);
     const authorizationToken=token;
-    const hostLink="http://localhost:5000" || "https://pushpakdroneviman-backend.onrender.com";
+    const hostLink="https://pushpakdroneviman-backend.onrender.com";
 
     let isLoggedIn=!!token;
 
