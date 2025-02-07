@@ -1,263 +1,254 @@
-.navbar-container
-{
-    position: fixed;
-    width: 100%;
-    background-color: white;
-    cursor: auto;
-    z-index: 10;
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  cursor: auto;
+  z-index: 10;
 }
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90px;
-    padding: 0 2rem;
-    /* padding-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 0 2rem;
+  /* padding-left: 2rem;
     padding-right: 4rem; */
-    box-shadow: 0px 0px 13px -4px #0000002e;
-    transition: 0.4s;
-    /* Adds a transition effect when the padding is decreased */
-   
-
+  box-shadow: 0px 0px 13px -4px #0000002e;
+  transition: 0.4s;
+  /* Adds a transition effect when the padding is decreased */
 }
 
 .navigation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.3rem;
-    position: relative;
-    font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  position: relative;
+  font-size: 20px;
 }
 
 .logo_section {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .logo_section img {
-    height: 60px;
-    /* pointer-events: none; */
+  height: 60px;
+  /* pointer-events: none; */
 }
 
 .dropdown_box {
-    cursor: pointer;
-    padding: 20px 10px;
-    transition: all 1s;
-    z-index: 1000;
+  cursor: pointer;
+  padding: 20px 10px;
+  transition: all 1s;
+  z-index: 1000;
 }
 
 .link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-
-
+.contact_section_container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row-reverse;
+}
 
 .dropdown_boxes {
-    height: 0;
-    width: 1000px;
-    position: absolute;
-    top: 100%;
-    left: -38%;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-    transition: transform 0.5s ease;
-    transform: scale(0.8);
-    border-radius: 25px;
-    z-index: 1000;
+  height: 0;
+  width: 1000px;
+  position: absolute;
+  top: 100%;
+  left: -38%;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  transition: transform 0.5s ease;
+  transform: scale(0.8);
+  border-radius: 25px;
+  z-index: 1000;
 }
 
 .dropdown_box:hover .dropdown_boxes {
-    height: auto;
-    transform: scale(1);
-    box-shadow: 0 8px 16px 6px rgba(0, 0, 0, 0.205);
+  height: auto;
+  transform: scale(1);
+  box-shadow: 0 8px 16px 6px rgba(0, 0, 0, 0.205);
 }
 
 .contact_section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact_section button {
-    height: 40px;
-    width: 130px;
-    background-color: black;
-    color: white;
-    border: 0;
-    outline: 0;
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.4s ease-in-out;
+  height: 40px;
+  width: 130px;
+  background-color: black;
+  color: white;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
 
 .linkcontactus {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 .linkcontactus.active {
-    color: azure;
+  color: azure;
 }
 
 .contact_section button .active {
-    background-color: white;
+  background-color: white;
 }
 
 .menu-section {
-    display: none;
+  display: none;
 }
 
 .menu-section button {
-    background-color: white;
-    border: 0;
-    outline: none;
-
+  background-color: white;
+  border: 0;
+  outline: none;
 }
 
 .active {
-    color: rgb(0, 0, 0);
-    font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
 }
 
-@media (max-width:850px) {
+@media (max-width: 850px) {
+  .navigation {
+    display: none;
+  }
 
-    .navigation {
-        display: none;
-    }
+  .contact_section button {
+    display: none;
+  }
 
+  .menu-section {
+    display: block;
+  }
 
-    .contact_section button {
-        display: none;
-    }
-
-    .menu-section {
-        display: block;
-    }
-
-    .logo_section img {
-        height: 55px;
-        pointer-events: none;
-    }
-
+  .logo_section img {
+    height: 55px;
+    pointer-events: none;
+  }
 }
 
-
-@media (max-width:850px) {
-
-    .logo_section img {
-        height: 45px;
-        pointer-events: none;
-    }
+@media (max-width: 850px) {
+  .logo_section img {
+    height: 45px;
+    pointer-events: none;
+  }
 }
 
-@media (max-width:1300px) {
-    .dropdown_boxes {
-        width: 900px;
-        left: -27%;
-    }
+@media (max-width: 1300px) {
+  .dropdown_boxes {
+    width: 900px;
+    left: -27%;
+  }
 }
 
-@media (max-width:950px) {
-    .dropdown_boxes {
-        width: 835px;
-        left: -21%;
-    }
+@media (max-width: 950px) {
+  .dropdown_boxes {
+    width: 835px;
+    left: -21%;
+  }
 }
-
 
 /* hamburger menu */
 
 .overlay {
-    height: 100vh;
-    width: 0;
-    position: fixed;
-    z-index: 11;
-    left: 0;
-    top: 0;
-    background-color: rgb(255, 255, 255);
-    overflow-x: hidden;
-    transition: 0.5s;
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 11;
+  left: 0;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
 .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .overlay a {
-    padding: 10px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #000000;
-    display: block;
-    transition: 0.3s;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
 }
 
 .overlay a:hover,
 .overlay a:focus {
-    color: #272626;
+  color: #272626;
 }
 
 .overlay .closebtn {
-    position: absolute;
-    top: 12px;
-    right: 20px;
-    font-size: 30px;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 30px;
 }
 
 .contact_section-menu button {
-    height: 45px;
-    width: 150px;
-    background-color: black;
-    color: white;
-    border: 0;
-    outline: 0;
-    font-size: 17px;
-    font-weight: 600;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.4s ease-in-out;
+  height: 45px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  border: 0;
+  outline: 0;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
 
 @media screen and (max-height: 450px) {
-    .overlay a {
-        font-size: 20px
-    }
+  .overlay a {
+    font-size: 20px;
+  }
 
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 
-    .contact_section-menu button {
-        display: block;
-    }
+  .contact_section-menu button {
+    display: block;
+  }
 }
 
 .menu-top {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .menu-top img {
-    position: absolute;
-    height: 46px;
-    top: 19px;
-    left: 32px;
+  position: absolute;
+  height: 46px;
+  top: 19px;
+  left: 32px;
 }
 
-
-
-
 #sub_menu_dropdown {
-    display: none;
-
+  display: none;
 }
