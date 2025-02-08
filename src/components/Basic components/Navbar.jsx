@@ -58,9 +58,10 @@ const Navbar = () => {
               </div>
             </div>
             <div className="dropdown_box">
-              <NavLink to="/product" className="link">
+              {/* <NavLink to="/product" className="link">
                 Product
-              </NavLink>
+              </NavLink> */}
+              <a href="https://shop.pushpakdroneviman.in/">Products</a>
               <div className="dropdown_boxes ">
                 <Product_dropdown />
               </div>
