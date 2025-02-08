@@ -10,7 +10,7 @@ import Serviceshero from '../Basic components/Serviceshero';
 const Services = () => {
   return (
     <>
-      <div className='container'>
+      <div className='pvd-container'>
         <Blankspace />
         <Serviceshero />
         <div className='max-width-container'>

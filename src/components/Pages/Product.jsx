@@ -9,7 +9,7 @@ import ContainerRight from '../Basic components/ContainerRight';
 const Product = () => {
   return (
     <>
-      <div className='container'>
+      <div className='pvd-container'>
         <Blankspace />
         <Heading heading={"Drone"} />
         <div className='max-width-container'>

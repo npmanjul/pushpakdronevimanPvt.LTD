@@ -16,7 +16,7 @@ import Teamcards from '../Basic components/Teamcards';
 const Aboutus = () => {
   return (
     <>
-      <div className='container'>
+      <div className='pvd-container'>
         <Blankspace />
         <Aboutushero />
         <div className='aboutus-container'>

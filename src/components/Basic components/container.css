@@ -25,7 +25,7 @@
 }
 
 
-.image-box img {
+.image-box-container img {
     border-radius: 10px;
     width: 440px;
     object-fit: contain;
@@ -117,7 +117,7 @@
         height: auto;
     }
 
-    .image-box img {
+    .image-box-container img {
         width: 440px;
     }
 
@@ -140,7 +140,7 @@
 
 @media (max-width:1240px) {
 
-    .image-box img {
+    .image-box-container img {
         width: 440px;
     }
 }
@@ -152,7 +152,7 @@
         flex-direction: column;
     }
 
-    .image-box img {
+    .image-box-container img {
        width: 100%;
     }
 

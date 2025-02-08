@@ -98,7 +98,7 @@
   }
 
     
-  .submit-btn button {
+  .form-submit-btn button {
     height: 2.2rem;
     width: auto;
     border: 1px solid black;
@@ -111,13 +111,13 @@
     transition: all 0.3s ease-in-out;
   }
 
-  .submit-btn button:hover
+  .form-submit-btn button:hover
   {
     background-color: rgba(0, 0, 0, 0.759);
   }
   
 
-  .submit-btn
+  .form-submit-btn
   {
     width: 100%;
     text-align: end;
