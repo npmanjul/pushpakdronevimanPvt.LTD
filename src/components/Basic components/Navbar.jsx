@@ -61,10 +61,8 @@ const Navbar = () => {
               {/* <NavLink to="/product" className="link">
                 Product
               </NavLink> */}
-              <a href="https://shop.pushpakdroneviman.in/">Products</a>
-              <div className="dropdown_boxes ">
-                <Product_dropdown />
-              </div>
+              <a href="https://shop.pushpakdroneviman.in/products">Products</a>
+              
             </div>
             <div className="R&D_section ">
               <NavLink to="/news-article" className="link">
@@ -140,7 +138,7 @@ const Navbar = () => {
             <NavLink to="/services" className="link" onClick={closeNav}>
               Services
             </NavLink>
-            <NavLink to="/product" className="link" onClick={closeNav}>
+            <NavLink to="https://shop.pushpakdroneviman.in/products" className="link" onClick={closeNav}>
               Product
             </NavLink>
             <NavLink to="/news-article" className="link" onClick={closeNav}>
