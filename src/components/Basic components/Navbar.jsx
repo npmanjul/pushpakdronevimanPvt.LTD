@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar-container">
-        {/* <Marque/> */}
+        <Marque />
         <div className="navbar">
           <div className="logo_section">
             <Link to="/">
